@@ -1,8 +1,8 @@
 ---
 title: "\"Cas d'étude : <nom du groupe>\""
-description: '"Etude de cas DevOps sur <nom du case study>"'
+description: '"Etude de cas DevOps sur LibreOffice"'
 "date:": 2023-11-10
-authors: "[<prénom nom>, <prénom nom>, <prénom nom>]"
+authors: "[François BECHET, Thibaut BERG, Maxime DE RYCKE]"
 tags: []
 ---
 # Introduction
