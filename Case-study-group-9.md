@@ -6,12 +6,25 @@ authors: "[François BECHET, Thibaut BERG, Maxime DE RYCKE]"
 tags: []
 ---
 # Introduction
+Dans le cadre du cours [[INFOM126] Automated Software Engineering](https://directory.unamur.be/teaching/courses/INFOM126/2023), 
+nous avons réalisé un case-study sur [LibreOffice](https://www.libreoffice.org) afin de répertorier différentes métriques liées au DevOps.
+
+LibreOffice a été créé en septembre 2010 [The Document Foundation](https://www.documentfoundation.org/).
+Elle continue d'ailleurs à maintenanir et améliorer les produits à l'heure actuelle.
 
 # Description du cas d'étude
-
 ## Contexte et domaine d'application
 
 ## Description générale des fonctionnalités offertes
+LibreOffice est une suite logicielle libre et open source.
+Elle comporte plusieurs applications :
+- Un éditeur de documents : [Writer](https://libreoffice.org/discover/writer)
+- Un tableau : [Calc](https://libreoffice.org/discover/calc)
+- Un créateur de présentations : [Impress](https://libreoffice.org/discover/impress)
+- Un éditeur de documents graphiques (diagrammes et organigrammes) : [Draw](https://libreoffice.org/discover/draw)
+- Un gestionnaire de base de données : [Base](https://libreoffice.org/discover/base)
+- Un éditeur de formules et d'équations : [Math](https://libreoffice.org/discover/math)
+- Un module de création de diagrammes : [Diagrammes](https://libreoffice.org/discover/charts)
 
 # Analyse DevOps du cas d'étude
 
