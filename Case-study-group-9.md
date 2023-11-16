@@ -16,6 +16,15 @@ Elle continue d'ailleurs à maintenanir et améliorer les produits à l'heure ac
 ## Contexte et domaine d'application
 
 ## Description générale des fonctionnalités offertes
+LibreOffice est une suite logicielle libre et open source.
+Elle comporte plusieurs applications :
+- Un éditeur de documents : [Writer](https://libreoffice.org/discover/writer)
+- Un tableau : [Calc](https://libreoffice.org/discover/calc)
+- Un créateur de présentations : [Impress](https://libreoffice.org/discover/impress)
+- Un éditeur de documents graphiques (diagrammes et organigrammes) : [Draw](https://libreoffice.org/discover/draw)
+- Un gestionnaire de base de données : [Base](https://libreoffice.org/discover/base)
+- Un éditeur de formules et d'équations : [Math](https://libreoffice.org/discover/math)
+- Un module de création de diagrammes : [Diagrammes](https://libreoffice.org/discover/charts)
 
 # Analyse DevOps du cas d'étude
 
