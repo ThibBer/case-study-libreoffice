@@ -6,9 +6,13 @@ authors: "[François BECHET, Thibaut BERG, Maxime DE RYCKE]"
 tags: []
 ---
 # Introduction
+Dans le cadre du cours [[INFOM126] Automated Software Engineering](https://directory.unamur.be/teaching/courses/INFOM126/2023), 
+nous avons réalisé un case-study sur [LibreOffice](https://www.libreoffice.org) afin de répertorier différentes métriques liées au DevOps.
+
+LibreOffice a été créé en septembre 2010 [The Document Foundation](https://www.documentfoundation.org/).
+Elle continue d'ailleurs à maintenanir et améliorer les produits à l'heure actuelle.
 
 # Description du cas d'étude
-
 ## Contexte et domaine d'application
 
 ## Description générale des fonctionnalités offertes
