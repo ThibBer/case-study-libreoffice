@@ -7,7 +7,7 @@ tags: []
 ---
 # Introduction
 
-Dans le cadre du cours [[INFOM126] Automated Software Engineering](https://directory.unamur.be/teaching/courses/INFOM126/2023),
+Dans le cadre du cours [[INFOM126] Automated Software Engineering](https://directory.unamur.be/teaching/courses/INFOM126/2023) donné par DEVROEY Xavier et assisté par MAQUOI Jérôme ,
 nous avons réalisé un case-study sur [LibreOffice](https://www.libreoffice.org) afin de répertorier différentes métriques liées au DevOps.
 
 LibreOffice a été créé en septembre 2010 [The Document Foundation](https://www.documentfoundation.org/).
@@ -66,6 +66,7 @@ Ils ont deux branches principales :
 Le déploiement à date fixe force les contributeurs à avoir une certaine discipline dans leur gestion de la modification du code, ce qui a pour effet de garder un bon rythme de déploiement malgré le côté Open Source qui implique parfois un manque de moyens.
 
 Cependant cela demande une certaine automatisation du build process, ce qui est déjà prévu dans leur [plan d'accélération](https://wiki.documentfoundation.org/ReleasePlan#Accelerating_the_release_cycle).
+
 ### Mean time to restore (MTTR)
 
 Signalement des bugs via deux plateformes :
@@ -87,6 +88,7 @@ Ensuite, le projet LibreOffice sollicite également des contributeurs afin de r�
 ## Enabling factors
 
 ### Lean management
+
 Le projet LibreOffice évolue grâce à la collaboration de ses nombreux contributeurs. Le développement est mené par la communauté pour la communauté. Leur philosophie est décrite dans [leur manifeste](https://www.documentfoundation.org/media/tdf-manifesto.pdf).
 
 Sur le site de LibreOffice, une page ["Community map"](https://www.libreoffice.org/community/community-map/) permet de voir où se situent certains contributeurs influents de LibreOffice, ayant interviewés, avec un moyen de les contacter.
@@ -94,6 +96,7 @@ Sur le site de LibreOffice, une page ["Community map"](https://www.libreoffice.o
 En ce qui concerne la communication entre contributeurs, des mailing lists sont mises à disposition. Il est également possible de discuter avec les contributeurs via des [canaux de discussion IRC](https://wiki.documentfoundation.org/Website/IRC).
 
 Plus globalement, The Document Foundation est gérée par [différentes fonctions](https://fr.libreoffice.org/about-us/governance/):
+
 - "Board of directors" ou BoD: les administrateurs principaux des projets et des différentes équipes de The Document Foundation.
 - "Membership Committee" ou MC: gère les demandes d'adhésion et les renouvellements des membres et organiser les élections du BoD.
 - "Board of trustees" (les membres): toute personne contribuant activement aux projets de la fondation, répondant à [certains critères](https://www.documentfoundation.org/media/statutes.pdf) et ayant rempli un [formulaire d'adhésion](https://membership.documentfoundation.org/).
@@ -104,12 +107,13 @@ D'autres entités aident le BoD, sans être des organes formels de la fondation:
 - "Advisory Board": forum pour les organisations pour fournir un soutien financier ou autre.
 
 ### Continuous delivery
+
 Pour le continuous devlivery, The Document Foundation utilise [Jenkins](https://jenkins.libreoffice.org) afin d'automatiser les builds, les tests et les déploiements des différentes applications.
 On peut voir sur leur Jenkins que des [builds journaliers](https://dev-builds.libreoffice.rg/daily/) sont lancés pour leurs applications.
 Lancer des builds régulièrement permet de tester le code plus souvent et ainsi pouvoir identifier au plus tôt les différents problèmes présents.
 
 Ils ont recourt à [TinderBox](https://ci.libreoffice.org/view/tb%20platform%20status) qui est leur outil d'aide à l'intégration continue. Ce dernier vérifie si le code de chaque projet compile sans erreurs et si la suite des tests est passée avec succès.
-Un système de couleur permet de voir rapidement quels builds ont échoué ou réussi. 
+Un système de couleur permet de voir rapidement quels builds ont échoué ou réussi.
 Sur le TinderBox de LibreOffice, lorsqu'un build échoue, on retrouve également le nom des personnes qui ont commit depuis le dernier build réussi.
 Il s'agit d'un outil très visuel qui aide à déterminer quel projet nécessite une attention particulière afin de résoudre les différents bugs.
 
@@ -154,5 +158,6 @@ Changer de "mode" de release permettrait d'éviter de faire des releases sans r�
 # Conclusion
 
 # Other links
-- https://www.documentfoundation.org/certification-qna/
-- https://fr.libreoffice.org/community/get-involved/
+
+- <https://www.documentfoundation.org/certification-qna/>
+- <https://fr.libreoffice.org/community/get-involved/>
