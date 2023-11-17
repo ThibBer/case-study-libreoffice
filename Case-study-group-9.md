@@ -108,8 +108,8 @@ Pour le continuous devlivery, The Document Foundation utilise [Jenkins](https://
 On peut voir sur leur Jenkins que des [builds journaliers](https://dev-builds.libreoffice.rg/daily/) sont lancés pour leurs applications.
 Lancer des builds régulièrement permet de tester le code plus souvent et ainsi pouvoir identifier au plus tôt les différents problèmes présents.
 
-Ils utilisent également [TinderBox](https://ci.libreoffice.org/view/tb%20platform%20status) qui est un logiciel d'aide à l'intégration continue. Il vérifie si le code de chaque projet compile sans erreurs et si la suite des tests est passée avec succès.
-Un système de couleur permet de voir rapidement quels builds ont échoués ou réussis. 
+Ils ont recourt à [TinderBox](https://ci.libreoffice.org/view/tb%20platform%20status) qui est leur outil d'aide à l'intégration continue. Ce dernier vérifie si le code de chaque projet compile sans erreurs et si la suite des tests est passée avec succès.
+Un système de couleur permet de voir rapidement quels builds ont échoué ou réussi. 
 Sur le TinderBox de LibreOffice, lorsqu'un build échoue, on retrouve également le nom des personnes qui ont commit depuis le dernier build réussi.
 Il s'agit d'un outil très visuel qui aide à déterminer quel projet nécessite une attention particulière afin de résoudre les différents bugs.
 
@@ -142,9 +142,14 @@ Décrivez ici le pipeline de développement suivi par votre case study. Si vous 
 
 ## Propositions d'améliorations
 
-Propositions d'éléments techniques ou organisationnels à ajouter permettant de favoriser le DevOps
-
 - Augmentation de la fréquence des releases
+
+Pour l'instant, The Document Foundation publie une nouvelle version officielle majeure tous les 6 mois.
+Il serait peut-être plus judicieux de diminuer le temps entre 2 releases afin de diminuer les potentiels problèmes accumulés durant cette longue période.
+
+- Passer du système de release à "semaine fixe" vers un système de release quand la suite LibreOffice contient assez de nouveautés pour en faire une nouvelle version
+
+Changer de "mode" de release permettrait d'éviter de faire des releases sans réel contenu mais également éviter la pression sur les developpeurs qui se dépêchent de finir leur modifications avant la date limite.
 
 # Conclusion
 
