@@ -49,7 +49,7 @@ Ensuite, The Document Foundation met à disposition [une plateforme Bugzilla](ht
 ### Deployment frequency
 
 À propos du déploiement, The Document Foundation a opté pour la mise en place de [release plans](https://wiki.documentfoundation.org/ReleasePlan)., c’est à dire qu’à date fixe, ils sortent une release dans tous les cas même s’il y a des fonctionnalités en cours ou des fix de bugs.
-Ce release plan fixe, pour chaque version, les semaines de déploiement des fixes et amélioration (alpha, beta, RC, ...).
+Ce release plan fixe, pour chaque version, les semaines de déploiement des fixes et améliorations ([schéma](https://wiki.documentfoundation.org/ReleasePlan#Version_scheme): alpha, beta, RC, ...).
 
 Pour la release initiale d’une nouvelle version ils sortent une version alpha et ensuite une version beta.
 
@@ -67,9 +67,9 @@ Ils ont deux branches principales :
 
 Signalement des bugs via deux plateformes :
 
-    Bugzilla:  permet d’ouvrir un rapport de bugs, permet de classer les bugs en donnant un nom/tag, de trouver des bugs dupliquer 
+- [Bugzilla](https://bugs.documentfoundation.org/):  permet d’ouvrir un rapport de bugs, permet de classer les bugs en donnant un nom/tag, de trouver des bugs dupliquer
 
-    Redmine: même chose mais pour les sites web et les services web de LibreOffice 
+- [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): même chose mais pour les sites web et les services web de LibreOffice
 
 ### Change fail percentage
 
@@ -87,7 +87,7 @@ Ensuite, le projet LibreOffice sollicite également des contributeurs afin de r�
 
 ### Westrums Organizational Culture
 
-LibreOffice est une entité auto gouverné sous le principe de méritocratie, c’est à dire que les gens sont récompensés sur base de leurs efforts, qui met le fun en avant.
+[The Document Foundation](https://www.documentfoundation.org/) est une entité auto gouverné sous le principe de méritocratie, c’est à dire que les gens sont récompensés sur base de leurs efforts, qui met le fun en avant.
 
 LibreOffice a été fondé avec la conviction que la culture qui émerge d’une fondation indépendante stimule le meilleur chez ses contributeurs ce qui amène aussi à produire un logiciel de meilleure qualité pour les utilisateurs.
 
@@ -101,7 +101,7 @@ En favorisant l'accès gratuit aux outils de productivité bureautique, LibreOff
 
  Ils font aussi attention à la diversité de leurs membres.
 
-LibreOffice protège les droits des développeurs en utilisant des licences qui protège l’open source comme la license GNU.
+LibreOffice protège les droits des développeurs en utilisant des licences qui protège l’open source comme la [license GNU](https://github.com/LibreOffice/core/blob/master/COPYING).
 
 Donc c’est une communauté guidée par l'engagement envers la qualité, la fiabilité, la sécurité et la flexibilité des Logiciels Libres qui offre des opportunités de contribution variées conformément aux idées de The Document Foundation.
 
@@ -116,3 +116,7 @@ Propositions d'éléments techniques ou organisationnels à ajouter permettant d
 - Augmentation de la fréquence des releases
 
 # Conclusion
+
+# Other links
+- https://www.documentliberation.org/
+- https://www.documentfoundation.org/certification-qna/
