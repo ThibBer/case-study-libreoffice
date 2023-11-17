@@ -19,7 +19,7 @@ Elle continue d'ailleurs à maintenanir et améliorer les produits à l'heure ac
 LibreOffice est une suite logicielle libre et open source.
 Elle comporte plusieurs applications :
 - Un éditeur de documents : [Writer](https://libreoffice.org/discover/writer)
-- Un tableau : [Calc](https://libreoffice.org/discover/calc)
+- Un tableur : [Calc](https://libreoffice.org/discover/calc)
 - Un créateur de présentations : [Impress](https://libreoffice.org/discover/impress)
 - Un éditeur de documents graphiques (diagrammes et organigrammes) : [Draw](https://libreoffice.org/discover/draw)
 - Un gestionnaire de base de données : [Base](https://libreoffice.org/discover/base)
@@ -67,6 +67,6 @@ Ensuite, le projet LibreOffice sollicite également des contributeurs afin de r�
 Décrivez ici le pipeline de développement suivi par votre case study. Si vous ne trouvez pas assez d'informations sur ce qui est effectivement suivi, proposez-en un en fonction des informations rassemblées sur votre case study.
 
 ## Propositions d'améliorations
-Propositions d'éléments techniques ou organisationnels à ajouter permettant de favoriser le DevOps
+- Augmentation de la fréquence des releases
 
 # Conclusion
