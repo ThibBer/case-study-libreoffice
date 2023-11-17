@@ -57,6 +57,6 @@ Ensuite, le projet LibreOffice sollicite également des contributeurs afin de r�
 Décrivez ici le pipeline de développement suivi par votre case study. Si vous ne trouvez pas assez d'informations sur ce qui est effectivement suivi, proposez-en un en fonction des informations rassemblées sur votre case study.
 
 ## Propositions d'améliorations
-Propositions d'éléments techniques ou organisationnels à ajouter permettant de favoriser le DevOps
+- Augmentation de la fréquence des releases
 
 # Conclusion
