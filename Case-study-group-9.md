@@ -48,7 +48,7 @@ Ensuite, The Document Foundation met à disposition [une plateforme Bugzilla](ht
 
 ### Deployment frequency
 
-À propos du déploiement, The Document Foundation a opté pour la mise en place de [release plans](https://wiki.documentfoundation.org/ReleasePlan)., c’est à dire qu’à date fixe, ils sortent une release dans tous les cas même s’il y a des fonctionnalités en cours ou des fix de bugs.
+À propos du déploiement, The Document Foundation a opté pour la mise en place de [release plans](https://wiki.documentfoundation.org/ReleasePlan), c’est à dire qu’ils essaient de publier une nouvelle version à date fixe (le vendredi), mais ils se laissent une marge d'erreur de quelques jours au cas où il y aura des problèmes techniques ou autre.
 Ce release plan fixe, pour chaque version, les semaines de déploiement des fixes et améliorations ([schéma](https://wiki.documentfoundation.org/ReleasePlan#Version_scheme): alpha, beta, RC, ...).
 
 Pour la release initiale d’une nouvelle version ils sortent une version alpha et ensuite une version beta.
@@ -63,6 +63,9 @@ Ils ont deux branches principales :
 
 - Une branche Still: la release précédente pour les utilisateurs plus sensibles comme les entreprises
 
+Le déploiement à date fixe force les contributeurs à avoir une certaine discipline dans leur gestion de la modification du code, ce qui a pour effet de garder un bon rythme de déploiement malgré le côté Open Source qui implique parfois un manque de moyens.
+
+Cependant cela demande une certaine automatisation du build process, ce qui est déjà prévu dans leur [plan d'accélération](https://wiki.documentfoundation.org/ReleasePlan#Accelerating_the_release_cycle).
 ### Mean time to restore (MTTR)
 
 Signalement des bugs via deux plateformes :
@@ -70,6 +73,8 @@ Signalement des bugs via deux plateformes :
 - [Bugzilla](https://bugs.documentfoundation.org/):  permet d’ouvrir un rapport de bugs, permet de classer les bugs en donnant un nom/tag, de trouver des bugs dupliquer
 
 - [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): même chose mais pour les sites web et les services web de LibreOffice
+
+L'utilisation de Bugzilla et de Redmine permet de réduire le temps entre la détection d'une erreur et son patch grâce à une centralisation de la plateforme de gestion des bugs qui permet une meilleure collaboration entre les contributeurs.
 
 ### Change fail percentage
 
@@ -95,7 +100,7 @@ Donc clairement LibreOffice est dans une culture générative avec une forte coo
 
 ### Identity
 
-LibreOffice, créé par la communauté de The Document Foundation, incarne les principes du Logiciel Libre. Basé sur les quatre libertés fondamentales, le projet promeut la liberté d'exécution, de copie, de distribution, d'étude, de modification et d'amélioration du logiciel.
+LibreOffice, créé par la communauté de The Document Foundation et en collaboration avec [Document Liberation Project](https://www.documentliberation.org), incarne les principes du Logiciel Libre. Basé sur les quatre libertés fondamentales, le projet promeut la liberté d'exécution, de copie, de distribution, d'étude, de modification et d'amélioration du logiciel.
 
 En favorisant l'accès gratuit aux outils de productivité bureautique, LibreOffice lutte contre la fracture numérique, encourage la préservation des langues maternelles, et s'oppose aux logiciels propriétaires.
 
@@ -118,5 +123,4 @@ Propositions d'éléments techniques ou organisationnels à ajouter permettant d
 # Conclusion
 
 # Other links
-- https://www.documentliberation.org/
 - https://www.documentfoundation.org/certification-qna/
