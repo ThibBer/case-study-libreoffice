@@ -122,11 +122,11 @@ Donc clairement LibreOffice est dans une culture générative avec une forte coo
 
 ### Identity
 
-LibreOffice, créé par la communauté de The Document Foundation, incarne les principes du Logiciel Libre. Basé sur les quatre libertés fondamentales, le projet promeut la liberté d'exécution, de copie, de distribution, d'étude, de modification et d'amélioration du logiciel.
+LibreOffice incarne les principes du logiciel libre. Basé sur [les quatre libertés fondamentales](https://fr.libreoffice.org/about-us/who-are-we/), le projet promeut la liberté d'exécution, de copie, de distribution, d'étude, de modification et d'amélioration du logiciel.
 
 En favorisant l'accès gratuit aux outils de productivité bureautique, LibreOffice lutte contre la fracture numérique, encourage la préservation des langues maternelles, et s'oppose aux logiciels propriétaires.
 
- Ils font aussi attention à la diversité de leurs membres.
+Une attention particulière est apportée à la [diversité](https://wiki.documentfoundation.org/Diversity) des membres au sein de la fondation.
 
 LibreOffice protège les droits des développeurs en utilisant des licences qui protège l’open source comme la [license GNU](https://github.com/LibreOffice/core/blob/master/COPYING).
 
