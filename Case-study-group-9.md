@@ -105,7 +105,7 @@ Sur le TinderBox de LibreOffice, lorsqu'un build échoue, on retrouve également
 Il s'agit d'un outil très visuel qui aide à déterminer quel projet nécessite une attention particulière afin de résoudre les différents bugs.
 
 Un système de **nightly builds** permet d'offrire une version de libreOffice qui est encore en développement. Les nightly builds sont utilisé uniquement à des fins de tests et The Document Foundation ne fournit aucune garrantie sur ces versions.
-Les développeurs ont également mis en place un système de pre-release afin de rendre disponible des versions "semblables" à la version finale mais la déconseillent pour un usage en production.
+Les développeurs ont également mis en place un système de **pre-release** afin de rendre disponible des versions "semblables" à la version finale mais la déconseillent pour un usage en production.
 
 ### Westrums Organizational Culture
 
