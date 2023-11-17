@@ -90,8 +90,13 @@ En ce qui concerne la communication entre contributeurs, des mailing lists sont 
 
 Plus globalement, The Document Foundation est gérée par [différentes fonctions](https://fr.libreoffice.org/about-us/governance/):
 - "Board of directors" ou BoD: les administrateurs principaux des projets et des différentes équipes de The Document Foundation.
-- "Membership Committee" ou MC: gérer les demandes d'adhésion et les renouvellements des membres et organiser les élections du BoD.
+- "Membership Committee" ou MC: gère les demandes d'adhésion et les renouvellements des membres et organiser les élections du BoD.
 - "Board of trustees" (les membres): toute personne contribuant activement aux projets de la fondation, répondant à [certains critères](https://www.documentfoundation.org/media/statutes.pdf) et ayant rempli un [formulaire d'adhésion](https://membership.documentfoundation.org/).
+
+D'autres entités aident le BoD, sans être des organes formels de la fondation:
+
+- "Engineering steering Committee": composé des meilleurs développeurs de la communauté, cette entité offre une aide technique.
+- "Advisory Board": forum pour les organisations pour fournir un soutien financier ou autre.
 
 ### Continuous delivery
 
@@ -130,3 +135,4 @@ Propositions d'éléments techniques ou organisationnels à ajouter permettant d
 # Other links
 - https://www.documentliberation.org/
 - https://www.documentfoundation.org/certification-qna/
+- https://fr.libreoffice.org/community/get-involved/
