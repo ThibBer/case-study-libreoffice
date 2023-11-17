@@ -65,6 +65,12 @@ Ils ont deux branches principales :
 
 ### Mean time to restore (MTTR)
 
+Signalement des bugs via deux plateformes :
+
+    Bugzilla:  permet d’ouvrir un rapport de bugs, permet de classer les bugs en donnant un nom/tag, de trouver des bugs dupliquer 
+
+    Redmine: même chose mais pour les sites web et les services web de LibreOffice 
+
 ### Change fail percentage
 
 Afin de réduire le taux d'erreurs, The Document Foundation met en place plusieurs pratiques assez classiques.
@@ -81,14 +87,32 @@ Ensuite, le projet LibreOffice sollicite également des contributeurs afin de r�
 
 ### Westrums Organizational Culture
 
+LibreOffice est une entité auto gouverné sous le principe de méritocratie, c’est à dire que les gens sont récompensés sur base de leurs efforts, qui met le fun en avant.
+
+LibreOffice a été fondé avec la conviction que la culture qui émerge d’une fondation indépendante stimule le meilleur chez ses contributeurs ce qui amène aussi à produire un logiciel de meilleure qualité pour les utilisateurs.
+
+Donc clairement LibreOffice est dans une culture générative avec une forte coopération de par son principe open source qui partage aussi les risques entre les collaborateurs.
+
 ### Identity
+
+LibreOffice, créé par la communauté de The Document Foundation, incarne les principes du Logiciel Libre. Basé sur les quatre libertés fondamentales, le projet promeut la liberté d'exécution, de copie, de distribution, d'étude, de modification et d'amélioration du logiciel.
+
+En favorisant l'accès gratuit aux outils de productivité bureautique, LibreOffice lutte contre la fracture numérique, encourage la préservation des langues maternelles, et s'oppose aux logiciels propriétaires.
+
+ Ils font aussi attention à la diversité de leurs membres.
+
+LibreOffice protège les droits des développeurs en utilisant des licences qui protège l’open source comme la license GNU.
+
+Donc c’est une communauté guidée par l'engagement envers la qualité, la fiabilité, la sécurité et la flexibilité des Logiciels Libres qui offre des opportunités de contribution variées conformément aux idées de The Document Foundation.
 
 ## Description du pipeline de développement
 
 Décrivez ici le pipeline de développement suivi par votre case study. Si vous ne trouvez pas assez d'informations sur ce qui est effectivement suivi, proposez-en un en fonction des informations rassemblées sur votre case study.
 
 ## Propositions d'améliorations
+
 Propositions d'éléments techniques ou organisationnels à ajouter permettant de favoriser le DevOps
+
 - Augmentation de la fréquence des releases
 
 # Conclusion
