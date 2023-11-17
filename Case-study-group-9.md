@@ -87,8 +87,34 @@ Ensuite, le projet LibreOffice sollicite également des contributeurs afin de r�
 ## Enabling factors
 
 ### Lean management
+Le projet LibreOffice évolue grâce à la collaboration de ses nombreux contributeurs. Le développement est mené par la communauté pour la communauté. Leur philosophie est décrite dans [leur manifeste](https://www.documentfoundation.org/media/tdf-manifesto.pdf).
+
+Sur le site de LibreOffice, une page ["Community map"](https://www.libreoffice.org/community/community-map/) permet de voir où se situent certains contributeurs influents de LibreOffice, ayant interviewés, avec un moyen de les contacter.
+
+En ce qui concerne la communication entre contributeurs, des mailing lists sont mises à disposition. Il est également possible de discuter avec les contributeurs via des [canaux de discussion IRC](https://wiki.documentfoundation.org/Website/IRC).
+
+Plus globalement, The Document Foundation est gérée par [différentes fonctions](https://fr.libreoffice.org/about-us/governance/):
+- "Board of directors" ou BoD: les administrateurs principaux des projets et des différentes équipes de The Document Foundation.
+- "Membership Committee" ou MC: gère les demandes d'adhésion et les renouvellements des membres et organiser les élections du BoD.
+- "Board of trustees" (les membres): toute personne contribuant activement aux projets de la fondation, répondant à [certains critères](https://www.documentfoundation.org/media/statutes.pdf) et ayant rempli un [formulaire d'adhésion](https://membership.documentfoundation.org/).
+
+D'autres entités aident le BoD, sans être des organes formels de la fondation:
+
+- "Engineering steering Committee": composé des meilleurs développeurs de la communauté, cette entité offre une aide technique.
+- "Advisory Board": forum pour les organisations pour fournir un soutien financier ou autre.
 
 ### Continuous delivery
+Pour le continuous devlivery, The Document Foundation utilise [Jenkins](https://jenkins.libreoffice.org) afin d'automatiser les builds, les tests et les déploiements des différentes applications.
+On peut voir sur leur Jenkins que des [builds journaliers](https://dev-builds.libreoffice.rg/daily/) sont lancés pour leurs applications.
+Lancer des builds régulièrement permet de tester le code plus souvent et ainsi pouvoir identifier au plus tôt les différents problèmes présents.
+
+Ils utilisent également [TinderBox](https://ci.libreoffice.org/view/tb%20platform%20status) qui est un logiciel d'aide à l'intégration continue. Il vérifie si le code de chaque projet compile sans erreurs et si la suite des tests est passée avec succès.
+Un système de couleur permet de voir rapidement quels builds ont échoués ou réussis. 
+Sur le TinderBox de LibreOffice, lorsqu'un build échoue, on retrouve également le nom des personnes qui ont commit depuis le dernier build réussi.
+Il s'agit d'un outil très visuel qui aide à déterminer quel projet nécessite une attention particulière afin de résoudre les différents bugs.
+
+Un système de **nightly builds** permet d'offrire une version de libreOffice qui est encore en développement. Les nightly builds sont utilisé uniquement à des fins de tests et The Document Foundation ne fournit aucune garrantie sur ces versions.
+Les développeurs ont également mis en place un système de **pre-release** afin de rendre disponible des versions "semblables" à la version finale mais la déconseillent pour un usage en production.
 
 ### Westrums Organizational Culture
 
@@ -100,11 +126,11 @@ Donc clairement LibreOffice est dans une culture générative avec une forte coo
 
 ### Identity
 
-LibreOffice, créé par la communauté de The Document Foundation et en collaboration avec [Document Liberation Project](https://www.documentliberation.org), incarne les principes du Logiciel Libre. Basé sur les quatre libertés fondamentales, le projet promeut la liberté d'exécution, de copie, de distribution, d'étude, de modification et d'amélioration du logiciel.
+LibreOffice incarne les principes du logiciel libre. Basé sur [les quatre libertés fondamentales](https://fr.libreoffice.org/about-us/who-are-we/), le projet promeut la liberté d'exécution, de copie, de distribution, d'étude, de modification et d'amélioration du logiciel.
 
 En favorisant l'accès gratuit aux outils de productivité bureautique, LibreOffice lutte contre la fracture numérique, encourage la préservation des langues maternelles, et s'oppose aux logiciels propriétaires.
 
- Ils font aussi attention à la diversité de leurs membres.
+Une attention particulière est apportée à la [diversité](https://wiki.documentfoundation.org/Diversity) des membres au sein de la fondation.
 
 LibreOffice protège les droits des développeurs en utilisant des licences qui protège l’open source comme la [license GNU](https://github.com/LibreOffice/core/blob/master/COPYING).
 
@@ -124,3 +150,4 @@ Propositions d'éléments techniques ou organisationnels à ajouter permettant d
 
 # Other links
 - https://www.documentfoundation.org/certification-qna/
+- https://fr.libreoffice.org/community/get-involved/
