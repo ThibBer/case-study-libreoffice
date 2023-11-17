@@ -56,6 +56,16 @@ Ensuite, le projet LibreOffice sollicite également des contributeurs afin de r�
 ## Enabling factors
 
 ### Lean management
+Le projet LibreOffice évolue grâce à la collaboration de ses nombreux contributeurs. Le développement est mené par la communauté pour la communauté. Leur philosophie est décrite dans [leur manifeste](https://www.documentfoundation.org/media/tdf-manifesto.pdf).
+
+Sur le site de LibreOffice, une page ["Community map"](https://www.libreoffice.org/community/community-map/) permet de voir où se situent certains contributeurs influents de LibreOffice, ayant interviewés, avec un moyen de les contacter.
+
+En ce qui concerne la communication entre contributeurs, des mailing lists sont mises à disposition. Il est également possible de discuter avec les contributeurs via des [canaux de discussion IRC](https://wiki.documentfoundation.org/Website/IRC).
+
+Plus globalement, The Document Foundation est gérée par [différentes fonctions](https://fr.libreoffice.org/about-us/governance/):
+- "Board of directors" ou BoD: les administrateurs principaux des projets et des différentes équipes de The Document Foundation.
+- "Membership Committee" ou MC: gérer les demandes d'adhésion et les renouvellements des membres et organiser les élections du BoD.
+- "Board of trustees" (les membres): toute personne contribuant activement aux projets de la fondation, répondant à [certains critères](https://www.documentfoundation.org/media/statutes.pdf) et ayant rempli un [formulaire d'adhésion](https://membership.documentfoundation.org/).
 
 ### Continuous delivery
 
