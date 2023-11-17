@@ -71,6 +71,7 @@ Signalement des bugs via deux plateformes :
 
 - [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): même chose mais pour les sites web et les services web de LibreOffice
 
+
 ### Change fail percentage
 
 Afin de réduire le taux d'erreurs, The Document Foundation met en place plusieurs pratiques assez classiques.
@@ -99,6 +100,17 @@ D'autres entités aident le BoD, sans être des organes formels de la fondation:
 - "Advisory Board": forum pour les organisations pour fournir un soutien financier ou autre.
 
 ### Continuous delivery
+Pour le continuous devlivery, The Document Foundation utilise [Jenkins](https://jenkins.libreoffice.org) afin d'automatiser les builds, les tests et les déploiements des différentes applications.
+On peut voir sur leur Jenkins que des [builds journaliers](https://dev-builds.libreoffice.rg/daily/) sont lancés pour leurs applications.
+Lancer des builds régulièrement permet de tester le code plus souvent et ainsi pouvoir identifier au plus tôt les différents problèmes présents.
+
+Ils utilisent également [TinderBox](https://ci.libreoffice.org/view/tb%20platform%20status) qui est un logiciel d'aide à l'intégration continue. Il vérifie si le code de chaque projet compile sans erreurs et si la suite des tests est passée avec succès.
+Un système de couleur permet de voir rapidement quels builds ont échoués ou réussis. 
+Sur le TinderBox de LibreOffice, lorsqu'un build échoue, on retrouve également le nom des personnes qui ont commit depuis le dernier build réussi.
+Il s'agit d'un outil très visuel qui aide à déterminer quel projet nécessite une attention particulière afin de résoudre les différents bugs.
+
+Un système de **nightly builds** permet d'offrire une version de libreOffice qui est encore en développement. Les nightly builds sont utilisé uniquement à des fins de tests et The Document Foundation ne fournit aucune garrantie sur ces versions.
+Les développeurs ont également mis en place un système de **pre-release** afin de rendre disponible des versions "semblables" à la version finale mais la déconseillent pour un usage en production.
 
 ### Westrums Organizational Culture
 
