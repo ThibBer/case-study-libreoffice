@@ -138,9 +138,14 @@ Décrivez ici le pipeline de développement suivi par votre case study. Si vous 
 
 ## Propositions d'améliorations
 
-Propositions d'éléments techniques ou organisationnels à ajouter permettant de favoriser le DevOps
-
 - Augmentation de la fréquence des releases
+
+Pour l'instant, The Document Foundation publie une nouvelle version officielle majeure tous les 6 mois.
+Il serait peut-être plus judicieux de diminuer le temps entre 2 releases afin de diminuer les potentiels problèmes accumulés durant cette longue période.
+
+- Passer du système de release à "semaine fixe" vers un système de release quand la suite LibreOffice contient assez de nouveautés pour en faire une nouvelle version
+
+Changer de "mode" de release permettrait d'éviter de faire des releases sans réel contenu mais également éviter la pression sur les developpeurs qui se dépêchent de finir leur modifications avant la date limite.
 
 # Conclusion
 
