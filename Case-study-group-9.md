@@ -53,6 +53,16 @@ Tout d'abord, toute demande de modification de code passe par une étape de revu
 
 Ensuite, le projet LibreOffice sollicite également des contributeurs afin de réaliser [plusieurs sortes de tests](https://wiki.documentfoundation.org/QA) (tests d'interface, tests de régression, ...).
 
+## Enabling factors
+
+### Lean management
+
+### Continuous delivery
+
+### Westrums Organizational Culture
+
+### Identity
+
 ## Description du pipeline de développement
 Décrivez ici le pipeline de développement suivi par votre case study. Si vous ne trouvez pas assez d'informations sur ce qui est effectivement suivi, proposez-en un en fonction des informations rassemblées sur votre case study.
 
