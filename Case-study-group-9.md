@@ -10,10 +10,11 @@ tags: []
 Dans le cadre du cours [[INFOM126] Automated Software Engineering](https://directory.unamur.be/teaching/courses/INFOM126/2023) donné par DEVROEY Xavier et assisté par MAQUOI Jérôme,
 nous avons réalisé un case-study sur [LibreOffice](https://www.libreoffice.org) afin de répertorier différentes métriques liées au DevOps.
 
-La création de LibreOffice remonte à septembre 2010, par [The Document Foundation](https://www.documentfoundation.org/). La fondation continue d'ailleurs à maintenir et à améliorer les produits à l'heure actuelle.
-
 # Description du cas d'étude
+
 ## Contexte et domaine d'application
+
+La création de LibreOffice remonte à septembre 2010, par [The Document Foundation](https://www.documentfoundation.org/), suite à l'annonce d'Oracle d'arrêter le développement d'Open Office. Il a fallu attendre 2011 pour Libre Office devienne populaire et soit intégrée à plusieurs distributions Linux dont Ubuntu et Fedora. En 2019, le nombre de téléchargement a dépassé le million de [téléchargement](https://www.wikiwand.com/fr/Fichier:LibreOffice_weekly_downloads.svg) mais aujourd'hui, son futur semble compromis suite à l’annonce de RedHat de ne plus supporter LibreOffice et de ne plus l'inclure dans Fedora. Néanmoins, The Document Foundation continue de maintenir et d'améliorer les produits actuellement.
 
 ## Description générale des fonctionnalités offertes
 
@@ -40,14 +41,14 @@ Pour chaque facteur favorisant les performances organisationnelles et non-commer
 
 En ce qui concerne les moyens mis en place pour améliorer le temps entre la demande et la satisfaction de celle-ci, nous pouvons d'abord mentionner l'aspect open-source. En effet, LibreOffice dispose de plusieurs [repositories Github](https://github.com/LibreOffice). Certains repositories contiennent des Github Actions, mais celles-ci semblent très peu utilisées.
 
-Ces repositories Github sont des copies "read only" de leurs repositories, car le projet LibreOffice dispose également de [son propre Git](https://git.libreoffice.org/core/). Les pull requests se font uniquement depuis leur plateforme Gerrit. 
+Ces repositories Github sont des copies "read only" de leurs repositories, car le projet LibreOffice dispose également de [son propre Git](https://git.libreoffice.org/core/). Les pull requests se font uniquement sur leur plateforme Gerrit.
 
 Ceci permet donc à n'importe qui de jeter un œil sur le code pour éventuellement y contribuer en ajoutant des fonctionnalités ou améliorant le code existant.
 
 Ensuite, The Document Foundation met à disposition [une plateforme Bugzilla](https://bugs.documentfoundation.org/) pour signaler les bugs sur les différents outils inclus dans LibreOffice. Cela permet aux contributeurs de pouvoir s'y retrouver dans les différents bugs et de les corriger plus rapidement lorsqu'ils ont été signalés. Leur plateforme Bugzilla comprend une documentation, expliquant comment l'utiliser.
 
 Un site web est également mis en place afin de permettre aux utilisateurs de [poser des questions](https://ask.libreoffice.org) dans différentes langues, mais également de [soumettre des idées d'améliorations](https://ask.libreoffice.org/tag/feature-request) de la suite logicielle.
-Toutefois, un [guide](https://ask.libreoffice.org/t/this-is-the-guide-how-to-use-the-ask-site/10/3) qui explique comment utiliser ce site suggère d'utiliser directement Bugzilla pour soumettre les idées d'améliorations. 
+Toutefois, un [guide](https://ask.libreoffice.org/t/this-is-the-guide-how-to-use-the-ask-site/10/3) qui explique comment utiliser ce site suggère d'utiliser directement Bugzilla pour soumettre les idées d'améliorations.
 
 Toutes ces plateformes et outils permettent ainsi d'accélérer le processus lorsqu'une demande de nouvelle fonctionnalité est soumise par un utilisateur.
 
@@ -58,9 +59,9 @@ Ce release plan fixe, pour chaque version, les semaines de déploiement des fixe
 
 Pour la release initiale d’une nouvelle version ils sortent une version alpha et ensuite une version beta.
 
-LibreOffice sort deux versions major par an en même temps que les sorties de Gnome et d’autres logiciels open sources important pour marquer deux grands évènements par an.
+LibreOffice sort deux versions majeures par an en même temps que les sorties de Gnome et d’autres logiciels open sources important pour marquer deux grands évènements par an.
 
-LibreOffice sort une bugfix release chaque mois après la sortie de la version major.
+LibreOffice sort une bugfix release chaque mois après la sortie de la version majeure.
 
 Ils ont deux branches principales :
 
@@ -154,11 +155,11 @@ Décrivez ici le pipeline de développement suivi par votre case study. Si vous 
 - Augmentation de la fréquence des releases
 
 Pour l'instant, The Document Foundation publie une nouvelle version officielle majeure tous les 6 mois.
-Il serait peut-être plus judicieux de diminuer le temps entre 2 releases afin de diminuer les potentiels problèmes accumulés durant cette longue période.
+Il serait peut-être plus judicieux de diminuer le temps entre deux releases afin de diminuer les potentiels problèmes accumulés durant cette longue période.
 
 - Passer du système de release à "semaine fixe" vers un système de release quand la suite LibreOffice contient assez de nouveautés pour en faire une nouvelle version
 
-Changer de "mode" de release permettrait d'éviter de faire des releases sans réel contenu mais également éviter la pression sur les developpeurs qui se dépêchent de finir leur modifications avant la date limite.
+Changer de "mode" de release permettrait d'éviter de faire des releases sans réel contenu mais également éviter la pression sur les développeurs qui se dépêchent de finir leur modifications avant la date limite.
 
 - Centralisation des repositories, des actions et des tickets
 
@@ -178,3 +179,4 @@ Il arrive que plusieurs pages mentionnent les mêmes informations mais que celle
 
 - <https://www.documentfoundation.org/certification-qna/>
 - <https://fr.libreoffice.org/community/get-involved/>
+- https://wiki.documentfoundation.org/Documentation/DevGuide/Office_Development#LibreOffice_Application_Environment
