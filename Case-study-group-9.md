@@ -53,14 +53,14 @@ Toutes ces plateformes et outils permettent ainsi d'accélérer le processus lor
 
 ### Deployment frequency
 
-À propos du déploiement, The Document Foundation a opté pour la mise en place de [release plans](https://wiki.documentfoundation.org/ReleasePlan), c’est à dire qu’ils essaient de publier une nouvelle version à date fixe (le vendredi), mais ils se laissent une marge d'erreur de quelques jours au cas où ils rencontreraient des problèmes techniques, de build ou tout autre type de problème qui nécessiterait quelques modifications.
-Ce release plan fixe, pour chaque version, les semaines de déploiement des fixes et améliorations ([schéma](https://wiki.documentfoundation.org/ReleasePlan#Version_scheme): alpha, beta, RC, ...).
+À propos du déploiement, The Document Foundation a opté pour la mise en place de [release plans](https://wiki.documentfoundation.org/ReleasePlan). C’est à dire qu’ils essaient de publier une nouvelle version à date fixe (le vendredi). Toutefois, ils se laissent une marge d'erreur de quelques jours au cas où ils rencontreraient des problèmes techniques, de build ou tout autre type de problème qui nécessiterait quelques modifications de dernière minute.
+Ce release plan impose, pour chaque version, les semaines de déploiement des fixes et améliorations ([schéma](https://wiki.documentfoundation.org/ReleasePlan#Version_scheme): alpha, beta, RC, ...).
 
-Pour la release initiale d’une nouvelle version ils sortent une version alpha et ensuite une version beta.
+Pour la release initiale d’une nouvelle version, ils sortent une version alpha et ensuite une version beta.
 
 LibreOffice sort deux versions major par an en même temps que les sorties de Gnome et d’autres logiciels open sources important pour marquer deux grands évènements par an.
 
-LibreOffice sort une bugfix release chaque mois après la sortie de la version major.
+LibreOffice sort également une bugfix release chaque mois après la sortie de la version major.
 
 Ils ont deux branches principales :
 
