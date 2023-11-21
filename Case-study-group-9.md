@@ -43,14 +43,14 @@ En ce qui concerne les moyens mis en place pour améliorer le temps entre la dem
 
 Ces repositories Github sont des copies "read only" de leurs repositories, car le projet LibreOffice dispose également de [son propre Git](https://git.libreoffice.org/core/). Les pull requests se font uniquement depuis leur plateforme Gerrit. 
 
-Ceci permet donc à n'importe qui de jeter un oeil sur le code pour éventuellement y contribuer en ajoutant des fonctionnalités ou améliorant le code existant.
+Ceci permet donc à n'importe qui de jeter un œil sur le code pour éventuellement y contribuer en ajoutant des fonctionnalités ou améliorant le code existant.
 
 Ensuite, The Document Foundation met à disposition [une plateforme Bugzilla](https://bugs.documentfoundation.org/) pour signaler les bugs sur les différents outils inclus dans LibreOffice. Cela permet aux contributeurs de pouvoir s'y retrouver dans les différents bugs et de les corriger plus rapidement lorsqu'ils ont été signalés. Leur plateforme Bugzilla comprend une documentation, expliquant comment l'utiliser.
 
 Un site web est également mis en place afin de permettre aux utilisateurs de [poser des questions](https://ask.libreoffice.org) dans différentes langues, mais également de [soumettre des idées d'améliorations](https://ask.libreoffice.org/tag/feature-request) de la suite logicielle.
 Toutefois, un [guide](https://ask.libreoffice.org/t/this-is-the-guide-how-to-use-the-ask-site/10/3) qui explique comment utiliser ce site suggère d'utiliser directement Bugzilla pour soumettre les idées d'améliorations. 
 
-
+Toutes ces plateformes et outils permettent ainsi d'accélérer le processus lorsqu'une demande de nouvelle fonctionnalité est soumise par un utilisateur.
 
 ### Deployment frequency
 
