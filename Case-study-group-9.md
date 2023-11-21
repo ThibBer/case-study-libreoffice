@@ -42,7 +42,9 @@ Pour chaque facteur favorisant les performances organisationnelles et non-commer
 
 En ce qui concerne les moyens mis en place pour améliorer le temps entre la demande et la satisfaction de celle-ci, nous pouvons d'abord mentionner l'aspect open-source. En effet, LibreOffice dispose de plusieurs [repositories Github](https://github.com/LibreOffice). Certains repositories contiennent des Github Actions, mais celles-ci semblent très peu utilisées.
 
-Ces repositories Github sont des repositories "read only", car le projet LibreOffice dispose également de [son propre Git](https://git.libreoffice.org/core/). Ceci permet donc à n'importe qui de jeter un oeil sur le code pour éventuellement y contribuer en ajoutant des fonctionnalités ou améliorant le code existant.
+Ces repositories Github sont des copies "read only" de leurs repositories, car le projet LibreOffice dispose également de [son propre Git](https://git.libreoffice.org/core/). Les pull requests se font uniquement depuis leur plateforme Gerrit. 
+
+Ceci permet donc à n'importe qui de jeter un oeil sur le code pour éventuellement y contribuer en ajoutant des fonctionnalités ou améliorant le code existant.
 
 Ensuite, The Document Foundation met à disposition [une plateforme Bugzilla](https://bugs.documentfoundation.org/) pour signaler les bugs sur les différents outils inclus dans LibreOffice. Cela permet aux contributeurs de pouvoir s'y retrouver dans les différents bugs et de les corriger plus rapidement lorsqu'ils ont été signalés. Leur plateforme Bugzilla comprend une documentation, expliquant comment l'utiliser.
 
@@ -71,7 +73,7 @@ Cependant cela demande une certaine automatisation du build process, ce qui est 
 
 Signalement des bugs via deux plateformes :
 
-- [Bugzilla](https://bugs.documentfoundation.org/):  permet d’ouvrir un rapport de bugs, permet de classer les bugs en donnant un nom/tag, de trouver des bugs dupliquer
+- [Bugzilla](https://bugs.documentfoundation.org/): permet d’ouvrir un rapport de bugs, permet de classer les bugs en donnant un nom/tag, de trouver des bugs dupliquer
 
 - [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): même chose mais pour les sites web et les services web de LibreOffice
 
