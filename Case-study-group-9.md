@@ -10,8 +10,7 @@ tags: []
 Dans le cadre du cours [[INFOM126] Automated Software Engineering](https://directory.unamur.be/teaching/courses/INFOM126/2023) donné par DEVROEY Xavier et assisté par MAQUOI Jérôme,
 nous avons réalisé un case-study sur [LibreOffice](https://www.libreoffice.org) afin de répertorier différentes métriques liées au DevOps.
 
-LibreOffice a été créé en septembre 2010 par [The Document Foundation](https://www.documentfoundation.org/).
-Elle continue d'ailleurs à maintenanir et améliorer les produits à l'heure actuelle.
+La création de LibreOffice remonte à septembre 2010, par [The Document Foundation](https://www.documentfoundation.org/). La fondation continue d'ailleurs à maintenir et à améliorer les produits à l'heure actuelle.
 
 # Description du cas d'étude
 ## Contexte et domaine d'application
@@ -155,6 +154,18 @@ Il serait peut-être plus judicieux de diminuer le temps entre 2 releases afin d
 - Passer du système de release à "semaine fixe" vers un système de release quand la suite LibreOffice contient assez de nouveautés pour en faire une nouvelle version
 
 Changer de "mode" de release permettrait d'éviter de faire des releases sans réel contenu mais également éviter la pression sur les developpeurs qui se dépêchent de finir leur modifications avant la date limite.
+
+- Centralisation des repositories, des actions et des tickets
+
+Comme expliqué précédemment, les repositories Github de LibreOffice sont uniquement des copies "read only" de leurs repositories sur leur plateforme Git. Il est également explicitement demandé de ne pas faire de pull requests directement sur Github mais sur leur instance Gerrit.
+
+De plus, les signalement de bugs et les demandes d'ajout de fonctionnalités se font sur Bugzilla, Redmine ou autres plateformes. Toutes ces actions se retrouvent éparpillées et les versions des outils cités précédemment semblent relativement anciennes et peu agréables à utiliser.
+
+Or, GitHub offre la possibilité de tout rassembler dans un repository (les issues pour les suggestions de fonctionnalités ou les signalements de bugs, les pull requests pour la revue de code, les actions pour automatiser certaines tâches, etc). Ainsi, tout y serait rassemblé, bien intégré et cela éviterait les contributeurs de devoir naviguer entre plusieurs plateformes.
+
+- Documentation pas à jour et désorganisée
+
+Il arrive que plusieurs pages mentionnent les mêmes informations mais que celles-ci ne correspondent pas. Selon nous, la fondation devrait mettre à disposition une seule documentation, un peu comme leur Wiki actuel, fournissant les informations sur l'organisation entre contributeurs, les outils, les procédures à suivre pour contribuer, etc. Cette documentation devrait également être maintenue à jour.
 
 # Conclusion
 
