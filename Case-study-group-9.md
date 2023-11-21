@@ -47,6 +47,8 @@ Ceci permet donc à n'importe qui de jeter un oeil sur le code pour éventuellem
 
 Ensuite, The Document Foundation met à disposition [une plateforme Bugzilla](https://bugs.documentfoundation.org/) pour signaler les bugs sur les différents outils inclus dans LibreOffice. Cela permet aux contributeurs de pouvoir s'y retrouver dans les différents bugs et de les corriger plus rapidement lorsqu'ils ont été signalés. Leur plateforme Bugzilla comprend une documentation, expliquant comment l'utiliser.
 
+Une plateforme web est également mise en place afin de permettre aux utilisateurs de [poser des questions](https://ask.libreoffice.org) dans différentes langues, mais également de [soumettre des idées d'améliorations](https://ask.libreoffice.org/tag/feature-request) de la suite logicielle.
+
 ### Deployment frequency
 
 À propos du déploiement, The Document Foundation a opté pour la mise en place de [release plans](https://wiki.documentfoundation.org/ReleasePlan), c’est à dire qu’ils essaient de publier une nouvelle version à date fixe (le vendredi), mais ils se laissent une marge d'erreur de quelques jours au cas où ils rencontreraient des problèmes techniques, de build ou tout autre type de problème qui nécessiterait quelques modifications.
