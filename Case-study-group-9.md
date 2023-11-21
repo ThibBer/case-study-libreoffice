@@ -28,7 +28,7 @@ Elle comporte plusieurs applications :
 - Un éditeur de documents graphiques (diagrammes et organigrammes) : [Draw](https://libreoffice.org/discover/draw)
 - Un gestionnaire de base de données : [Base](https://libreoffice.org/discover/base)
 - Un éditeur de formules et d'équations : [Math](https://libreoffice.org/discover/math)
-- Un module de création de diagrammes : [Diagrammes](https://libreoffice.org/discover/charts)
+- Un module de création de diagrammes : [Charts](https://libreoffice.org/discover/charts)
 
 # Analyse DevOps du cas d'étude
 
@@ -108,8 +108,8 @@ D'autres entités aident le BoD, sans être des organes formels de la fondation:
 
 ### Continuous delivery
 
-Pour le continuous devlivery, The Document Foundation utilise [Jenkins](https://jenkins.libreoffice.org) afin d'automatiser les builds, les tests et les déploiements des différentes applications.
-On peut voir sur leur Jenkins que des [builds journaliers](https://dev-builds.libreoffice.rg/daily/) sont lancés pour leurs applications.
+Pour le continuous delivery, The Document Foundation utilise [Jenkins](https://jenkins.libreoffice.org) afin d'automatiser les builds, les tests et les déploiements des différentes applications.
+Sur leur Jenkins, nous pouvons voir que des [builds journaliers](https://dev-builds.libreoffice.rg/daily/) sont lancés pour leurs applications.
 Lancer des builds régulièrement permet de tester le code plus souvent et ainsi pouvoir identifier au plus tôt les différents problèmes présents.
 
 Ils ont recourt à [TinderBox](https://ci.libreoffice.org/view/tb%20platform%20status) qui est leur outil d'aide à l'intégration continue. Ce dernier vérifie si le code de chaque projet compile sans erreurs et si la suite des tests est passée avec succès.
@@ -117,12 +117,12 @@ Un système de couleur permet de voir rapidement quels builds ont échoué ou r�
 Sur le TinderBox de LibreOffice, lorsqu'un build échoue, on retrouve également le nom des personnes qui ont commit depuis le dernier build réussi.
 Il s'agit d'un outil très visuel qui aide à déterminer quel projet nécessite une attention particulière afin de résoudre les différents bugs.
 
-Un système de **nightly builds** permet d'offrire une version de libreOffice qui est encore en développement. Les nightly builds sont utilisé uniquement à des fins de tests et The Document Foundation ne fournit aucune garrantie sur ces versions.
+Un système de [nightly builds](https://www.libreoffice.org/download/pre-releases/) permet d'offrir une version de Libre Office qui est encore en développement. Les nightly builds sont utilisés uniquement à des fins de tests et The Document Foundation ne fournit aucune garantie sur ces versions.
 Les développeurs ont également mis en place un système de **pre-release** afin de rendre disponible des versions "semblables" à la version finale mais la déconseillent pour un usage en production.
 
 ### Westrums Organizational Culture
 
-[The Document Foundation](https://www.documentfoundation.org/) est une entité auto gouverné sous le principe de méritocratie, c’est à dire que les gens sont récompensés sur base de leurs efforts, qui met le fun en avant.
+[The Document Foundation](https://www.documentfoundation.org/) est une entité auto gouvernée sous le principe de méritocratie, c’est-à-dire que les gens sont récompensés sur base de leurs efforts, qui met le fun en avant.
 
 LibreOffice a été fondé avec la conviction que la culture qui émerge d’une fondation indépendante stimule le meilleur chez ses contributeurs ce qui amène aussi à produire un logiciel de meilleure qualité pour les utilisateurs.
 
