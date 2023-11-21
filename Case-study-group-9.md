@@ -54,14 +54,14 @@ Toutes ces plateformes et outils permettent ainsi d'accélérer le processus lor
 
 ### Deployment frequency
 
-À propos du déploiement, The Document Foundation a opté pour la mise en place de [release plans](https://wiki.documentfoundation.org/ReleasePlan), c’est à dire qu’ils essaient de publier une nouvelle version à date fixe (le vendredi), mais ils se laissent une marge d'erreur de quelques jours au cas où ils rencontreraient des problèmes techniques, de build ou tout autre type de problème qui nécessiterait quelques modifications.
-Ce release plan fixe, pour chaque version, les semaines de déploiement des fixes et améliorations ([schéma](https://wiki.documentfoundation.org/ReleasePlan#Version_scheme): alpha, beta, RC, ...).
+À propos du déploiement, The Document Foundation a opté pour la mise en place de [release plans](https://wiki.documentfoundation.org/ReleasePlan). C’est à dire qu’ils essaient de publier une nouvelle version à date fixe (le vendredi). Toutefois, ils se laissent une marge d'erreur de quelques jours au cas où ils rencontreraient des problèmes techniques, de build ou tout autre type de problème qui nécessiterait quelques modifications de dernière minute.
+Ce release plan impose, pour chaque version, les semaines de déploiement des fixes et améliorations ([schéma](https://wiki.documentfoundation.org/ReleasePlan#Version_scheme): alpha, beta, RC, ...).
 
-Pour la release initiale d’une nouvelle version ils sortent une version alpha et ensuite une version beta.
+Pour la release initiale d’une nouvelle version, ils sortent une version alpha et ensuite une version beta.
 
 LibreOffice sort deux versions majeures par an en même temps que les sorties de Gnome et d’autres logiciels open sources important pour marquer deux grands évènements par an.
 
-LibreOffice sort une bugfix release chaque mois après la sortie de la version majeure.
+LibreOffice sort également une bugfix release chaque mois après la sortie de la version majeure.
 
 Ils ont deux branches principales :
 
@@ -97,9 +97,9 @@ Ensuite, le projet LibreOffice sollicite également des contributeurs afin de r�
 
 Le projet LibreOffice évolue grâce à la collaboration de ses nombreux contributeurs. Le développement est mené par la communauté pour la communauté. Leur philosophie est décrite dans [leur manifeste](https://www.documentfoundation.org/media/tdf-manifesto.pdf).
 
-Sur le site de LibreOffice, une page ["Community map"](https://www.libreoffice.org/community/community-map/) permet de voir où se situent certains contributeurs influents de LibreOffice, ayant interviewés, avec un moyen de les contacter.
+Sur le site de LibreOffice, une page ["Community map"](https://www.libreoffice.org/community/community-map/) permet de voir où se situent certains contributeurs influents de LibreOffice, ayant été interviewés pour le [blog](https://blog.documentfoundation.org/), avec un moyen de les contacter.
 
-En ce qui concerne la communication entre contributeurs, des mailing lists sont mises à disposition. Il est également possible de discuter avec les contributeurs via des [canaux de discussion IRC](https://wiki.documentfoundation.org/Website/IRC).
+En ce qui concerne la communication entre contributeurs, des mailing lists sont mises à disposition. Il est également possible de discuter avec les contributeurs via des [canaux de discussion IRC](https://wiki.documentfoundation.org/Website/IRC) qui sont reliés à [Matrix](https://matrix.to/#/!RDouOeSHcCrhQNlzLp:libera.chat) et [Télégram](https://t.me/LibreOffice_QA)
 
 Plus globalement, The Document Foundation est gérée par [différentes fonctions](https://fr.libreoffice.org/about-us/governance/):
 
@@ -165,13 +165,13 @@ Changer de "mode" de release permettrait d'éviter de faire des releases sans r�
 
 Comme expliqué précédemment, les repositories Github de LibreOffice sont uniquement des copies "read only" de leurs repositories sur leur plateforme Git. Il est également explicitement demandé de ne pas faire de pull requests directement sur Github mais sur leur instance Gerrit.
 
-De plus, les signalement de bugs et les demandes d'ajout de fonctionnalités se font sur Bugzilla, Redmine ou autres plateformes. Toutes ces actions se retrouvent éparpillées et les versions des outils cités précédemment semblent relativement anciennes et peu agréables à utiliser.
+De plus, les signalements de bugs et les demandes d'ajout de fonctionnalités se font sur Bugzilla, Redmine ou autres plateformes. Toutes ces actions se retrouvent éparpillées et les versions des outils cités précédemment semblent relativement anciennes et peu agréables à utiliser.
 
 Or, GitHub offre la possibilité de tout rassembler dans un repository (les issues pour les suggestions de fonctionnalités ou les signalements de bugs, les pull requests pour la revue de code, les actions pour automatiser certaines tâches, etc). Ainsi, tout y serait rassemblé, bien intégré et cela éviterait les contributeurs de devoir naviguer entre plusieurs plateformes.
 
 - Documentation pas à jour et désorganisée
 
-Il arrive que plusieurs pages mentionnent les mêmes informations mais que celles-ci ne correspondent pas. Selon nous, la fondation devrait mettre à disposition une seule documentation, un peu comme leur Wiki actuel, fournissant les informations sur l'organisation entre contributeurs, les outils, les procédures à suivre pour contribuer, etc. Cette documentation devrait également être maintenue à jour.
+Il arrive que plusieurs pages mentionnent les mêmes informations, mais que celles-ci ne correspondent pas. Selon nous, la fondation devrait mettre à disposition une seule documentation, un peu comme leur Wiki actuel, fournissant les informations sur l'organisation entre contributeurs, les outils, les procédures à suivre pour contribuer, etc. Cette documentation devrait également être maintenue à jour.
 
 # Conclusion
 
