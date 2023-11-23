@@ -7,8 +7,16 @@ tags: []
 ---
 # Introduction
 
+![Logo LibreOffice](https://fr.libreoffice.org/themes/libreofficenew/img/logo.png)
+
 Dans le cadre du cours [[INFOM126] Automated Software Engineering](https://directory.unamur.be/teaching/courses/INFOM126/2023) donné par DEVROEY Xavier et assisté par MAQUOI Jérôme,
 nous avons réalisé un case-study sur [LibreOffice](https://www.libreoffice.org) afin de répertorier différentes métriques liées au DevOps.
+
+Dans ce travail, nous commencerons par expliquer brièvement ce qu'est LibreOffice, le contexte dans lequel il a été créé et la liste des outils qu'il propose.
+
+Ensuite, nous donnerons notre analyse DevOps de LibreOffice, notamment en listant les différentes métriques DORA vues au cours et en analysant comment celles-ci sont mises en place. D'autres facteurs seront également passés en revue.
+
+Enfin, nous proposerons notre avis concernant les améliorations qui pourraient être apportées à l'organisation du projet LibreOffice, avant de conclure.
 
 # Description du cas d'étude
 
