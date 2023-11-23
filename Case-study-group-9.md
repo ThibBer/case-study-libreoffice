@@ -172,6 +172,45 @@ Donc c’est une communauté guidée par l'engagement envers la qualité, la fia
 
 Décrivez ici le pipeline de développement suivi par votre case study. Si vous ne trouvez pas assez d'informations sur ce qui est effectivement suivi, proposez-en un en fonction des informations rassemblées sur votre case study.
 
+### Création d'un patch
+Lorsqu'un développeur a terminé de développer sa feature ou de corriger un bug, il va soumettre un **patch** afin que ce dernier soit **reviewé**.
+
+### Review
+Une tierce personne va review le code du patch et l'analyser constructivement.
+Le résultat de la review peut être :
+- Le reviewer qui a vérifié et testé le patch n'a observé **aucun problème** et le patch est donc merge dans la branche principale
+- Le reviewer a des **commentaires à faire** qui nécessitent l'attention du développeur
+- Le patch a créé de **nouveaux problèmes sur d'autres fonctionnalités** et est marqué comme "Ne peut pas être merge"
+
+Dans les deux derniers cas, le patch nécessite d'être modifié par le développeur.
+
+### Builds
+
+En plus des daly builds exécutés par Jenkins, des builds sont déclenchés automatiquement lorsqu'il y a un push sur le repository du projet
+
+[comment]: # (Compléter avec les infos sur quelle branche déclenche les builds)
+[comment]: # (Qu'est-ce que guerrit dans Jenkins ?)
+
+### Tests
+
+The Document Foundation aimerait accélérer le cycle de versions. Pour ce faire, ils ont déjà mis en place des daily builds afin
+d'accélérer le processus de test en continu des différentes mises à jour.
+
+[comment]: # (Compléter avec les infos sur les tests)
+
+### Release
+
+A date fixe, le projet va être build selon un workflow idéal fournit par TheDocumentFoundation :
+**Lundi** : date limite des commits.
+**Mardi** : un **tag** est créé à partir d'un commit qui build et qui passe les tests unitaires, subséquents et de fumée.
+**Mercredi** : les builds sont upload en version de [pré-release anticipée](https://dev-builds.libreoffice.org/pre-releases).
+**Jeudi** : les builds sont uploadés en miroirs et une annonce est passée via les cannaux de communications principaux.
+**Vendredi** : les builds sont disponibles en pre-release officielle
+
+[comment]: # (J'ai pas trouvé beaucoup d'info sur l'automatisation des publications des builds)
+
+### Feedback & fixes
+
 ## Propositions d'améliorations
 
 ### Augmentation de la fréquence des releases
