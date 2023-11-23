@@ -95,7 +95,9 @@ Signalement des bugs via deux plateformes :
 
 - [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): même chose mais pour les sites web et les services web de LibreOffice
 
-L'utilisation de Bugzilla et de Redmine permet de réduire le temps entre la détection d'une erreur et son patch grâce à une centralisation de la plateforme de gestion des bugs qui permet une meilleure collaboration entre les contributeurs.
+L'utilisation de Bugzilla et de Redmine permet de réduire le temps entre la détection d'une erreur et son patch grâce à une centralisation de la plateforme de gestion des bugs qui permet une meilleure collaboration entre les contributeurs. 
+
+De plus, afin de mieux organiser ces bugs, certains contributeurs ont pour rôle de [trier](https://wiki.documentfoundation.org/QA/BugTriage) ceux-ci. Le job de ces contributeurs consiste en la confirmation et la priorisation de signalement de bugs. Ainsi, les contributeurs souhaitent les corriger pourront s'y retrouver et éventuellement corriger plus rapidement les bugs les plus critiques.
 
 ### Change fail percentage
 
