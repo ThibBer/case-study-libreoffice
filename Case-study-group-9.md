@@ -167,16 +167,16 @@ Décrivez ici le pipeline de développement suivi par votre case study. Si vous 
 
 ## Propositions d'améliorations
 
-- Augmentation de la fréquence des releases
+### Augmentation de la fréquence des releases
 
 Pour l'instant, The Document Foundation publie une nouvelle version officielle majeure tous les 6 mois.
 Il serait peut-être plus judicieux de diminuer le temps entre deux releases afin de diminuer les potentiels problèmes accumulés durant cette longue période.
 
-- Passer du système de release à "semaine fixe" vers un système de release quand la suite LibreOffice contient assez de nouveautés pour en faire une nouvelle version
+### Passer du système de releases à "semaine fixe" vers une release lorsque suffisamment de nouveautés sont apportées
 
 Changer de "mode" de release permettrait d'éviter de faire des releases sans réel contenu mais également éviter la pression sur les développeurs qui se dépêchent de finir leur modifications avant la date limite.
 
-- Centralisation des repositories, des actions et des tickets
+### Centralisation des repositories, des actions et des tickets
 
 Comme expliqué précédemment, les repositories Github de LibreOffice sont uniquement des copies "read only" de leurs repositories sur leur plateforme Git. Il est également explicitement demandé de ne pas faire de pull requests directement sur Github mais sur leur instance Gerrit.
 
@@ -184,7 +184,7 @@ De plus, les signalements de bugs et les demandes d'ajout de fonctionnalités se
 
 Or, GitHub offre la possibilité de tout rassembler dans un repository (les issues pour les suggestions de fonctionnalités ou les signalements de bugs, les pull requests pour la revue de code, les actions pour automatiser certaines tâches, etc). Ainsi, tout y serait rassemblé, bien intégré et cela éviterait les contributeurs de devoir naviguer entre plusieurs plateformes.
 
-- Documentation pas à jour et désorganisée
+### Documentation pas à jour et désorganisée
 
 Il arrive que plusieurs pages mentionnent les mêmes informations, mais que celles-ci ne correspondent pas. Selon nous, la fondation devrait mettre à disposition une seule documentation, un peu comme leur Wiki actuel, fournissant les informations sur l'organisation entre contributeurs, les outils, les procédures à suivre pour contribuer, etc. Cette documentation devrait également être maintenue à jour.
 
