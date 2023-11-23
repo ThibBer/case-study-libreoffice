@@ -16,8 +16,12 @@ nous avons réalisé un case-study sur [LibreOffice](https://www.libreoffice.org
 
 La création de LibreOffice remonte à septembre 2010, par [The Document Foundation](https://www.documentfoundation.org/), suite à l'annonce d'Oracle d'arrêter le développement d'Open Office. 
 Il a fallu attendre 2011 pour que Libre Office devienne populaire et qu'il soit intégré à plusieurs distributions Linux dont Ubuntu et Fedora. 
-En 2019, le nombre de téléchargements a dépassé le million de [téléchargements](https://www.wikiwand.com/fr/Fichier:LibreOffice_weekly_downloads.svg), mais aujourd'hui, son futur semble compromis suite à l’annonce de RedHat de ne plus supporter LibreOffice et de ne plus l'inclure dans Fedora. 
-Néanmoins, The Document Foundation continue de maintenir et d'améliorer les produits actuellement.
+En 2019, le nombre de [téléchargements](https://www.wikiwand.com/fr/Fichier:LibreOffice_weekly_downloads.svg) a dépassé le million. Toutefois, son futur semble aujourd'hui compromis suite à l’annonce de RedHat de ne plus supporter LibreOffice et de ne plus l'inclure dans Fedora. 
+Néanmoins, The Document Foundation continue de maintenir et d'améliorer les produits à l'heure actuelle <-- [source et plus d'explications].
+
+[comment]: # (Besoin de sources pour la partie RedHat ou plus d'informations et explications. Selon cette source :https://www.theregister.com/2023/06/07/red_hat_drops_libreoffice/, RH arrêtera de packager LibreOffice pour RHEL. LibreOffice pourra toujours être installé. Est-ce que ça rend réellement le futur de LibreOffice compromis pour autant ?)
+
+[comment]: # (Compléter cette partie avec d'autres informations)
 
 ## Description générale des fonctionnalités offertes
 
