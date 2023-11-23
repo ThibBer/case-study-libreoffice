@@ -101,11 +101,17 @@ De plus, afin de mieux organiser ces bugs, certains contributeurs ont pour rôle
 
 ### Change fail percentage
 
-Afin de réduire le taux d'erreurs, The Document Foundation met en place plusieurs pratiques assez classiques.
+Afin de réduire le taux d'erreurs lors de changements dans le code, The Document Foundation met en place plusieurs pratiques assez classiques.
 
-Tout d'abord, toute demande de modification de code passe par une étape de revue de code via [leur plateforme Gerrit](https://gerrit.libreoffice.org), au travers d'une pull request.
+Tout d'abord, toute demande de modification de code passe par une étape de revue de code via [leur plateforme Gerrit](https://gerrit.libreoffice.org), à travers une pull request. Ainsi, tout code écrit par un contributeur sur sa branche sera revu avant d'être fusionné sur la branche principale. Pour revoir les changements des contributeurs, The Document Foundation propose une [liste d'experts](https://wiki.documentfoundation.org/FindTheExpert) dans divers domaines, pouvant être ajoutés à la pull request. Ces revues de code permettent d'assurer la maintenance d'un certain niveau de qualité au niveau du code, qui sera donc moins susceptible de provoquer des erreurs.
 
-Ensuite, le projet LibreOffice sollicite également des contributeurs afin de réaliser [plusieurs sortes de tests](https://wiki.documentfoundation.org/QA) (tests d'interface, tests de régression, ...).
+Ensuite, le projet LibreOffice sollicite également des contributeurs afin de réaliser [plusieurs sortes de tests](https://wiki.documentfoundation.org/QA), automatiques ou manuels. Parmis ces types de tests, nous pouvons notamment citer:
+
+- [Les tests d'interface (UI tests)](https://wiki.documentfoundation.org/Development/UITests): permettent de tester le comportement des interfaces utilisateur
+- [Les tests unitaires](https://wiki.documentfoundation.org/Development/Unit_Tests): permettent de tester une à une les fonctions des programmes.
+- [Les tests de régression](https://wiki.documentfoundation.org/QA/Testing/Regression_Tests): permettent de s'assurer que les modifications apportées n'ont pas eu d'effet de bord sur les fonctionnalités déjà existantes.
+
+La combinaison de ces différents types de tests, lorsqu'ils couvrent suffisamment le code, permet d'assurer le bon fonctionnement du code à différents niveaux, et qu'aucun effet de bord indésirable n'a été introduit.
 
 ## Enabling factors
 
