@@ -14,7 +14,10 @@ nous avons réalisé un case-study sur [LibreOffice](https://www.libreoffice.org
 
 ## Contexte et domaine d'application
 
-La création de LibreOffice remonte à septembre 2010, par [The Document Foundation](https://www.documentfoundation.org/), suite à l'annonce d'Oracle d'arrêter le développement d'Open Office. Il a fallu attendre 2011 pour Libre Office devienne populaire et soit intégrée à plusieurs distributions Linux dont Ubuntu et Fedora. En 2019, le nombre de téléchargement a dépassé le million de [téléchargement](https://www.wikiwand.com/fr/Fichier:LibreOffice_weekly_downloads.svg) mais aujourd'hui, son futur semble compromis suite à l’annonce de RedHat de ne plus supporter LibreOffice et de ne plus l'inclure dans Fedora. Néanmoins, The Document Foundation continue de maintenir et d'améliorer les produits actuellement.
+La création de LibreOffice remonte à septembre 2010, par [The Document Foundation](https://www.documentfoundation.org/), suite à l'annonce d'Oracle d'arrêter le développement d'Open Office. 
+Il a fallu attendre 2011 pour que Libre Office devienne populaire et qu'il soit intégré à plusieurs distributions Linux dont Ubuntu et Fedora. 
+En 2019, le nombre de téléchargements a dépassé le million de [téléchargements](https://www.wikiwand.com/fr/Fichier:LibreOffice_weekly_downloads.svg), mais aujourd'hui, son futur semble compromis suite à l’annonce de RedHat de ne plus supporter LibreOffice et de ne plus l'inclure dans Fedora. 
+Néanmoins, The Document Foundation continue de maintenir et d'améliorer les produits actuellement.
 
 ## Description générale des fonctionnalités offertes
 
@@ -43,7 +46,7 @@ En ce qui concerne les moyens mis en place pour améliorer le temps entre la dem
 
 Ces repositories Github sont des copies "read only" de leurs repositories, car le projet LibreOffice dispose également de [son propre Git](https://git.libreoffice.org/core/). Les pull requests se font uniquement sur leur plateforme Gerrit.
 
-Ceci permet donc à n'importe qui de jeter un œil sur le code pour éventuellement y contribuer en ajoutant des fonctionnalités ou améliorant le code existant.
+Ceci permet donc à n'importe qui de jeter un œil sur le code pour éventuellement y contribuer en ajoutant des fonctionnalités ou en améliorant le code existant.
 
 Ensuite, The Document Foundation met à disposition [une plateforme Bugzilla](https://bugs.documentfoundation.org/) pour signaler les bugs sur les différents outils inclus dans LibreOffice. Cela permet aux contributeurs de pouvoir s'y retrouver dans les différents bugs et de les corriger plus rapidement lorsqu'ils ont été signalés. Leur plateforme Bugzilla comprend une documentation, expliquant comment l'utiliser.
 
