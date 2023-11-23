@@ -113,7 +113,7 @@ Le projet LibreOffice évolue grâce à la collaboration de ses nombreux contrib
 
 Sur le site de LibreOffice, une page ["Community map"](https://www.libreoffice.org/community/community-map/) permet de voir où se situent certains contributeurs influents de LibreOffice, ayant été interviewés pour le [blog](https://blog.documentfoundation.org/), avec un moyen de les contacter.
 
-En ce qui concerne la communication entre contributeurs, des mailing lists sont mises à disposition. Il est également possible de discuter avec les contributeurs via des [canaux de discussion IRC](https://wiki.documentfoundation.org/Website/IRC) qui sont reliés à [Matrix](https://matrix.to/#/!RDouOeSHcCrhQNlzLp:libera.chat) et [Télégram](https://t.me/LibreOffice_QA)
+En ce qui concerne la communication entre contributeurs, des mailing lists sont mises à disposition. Il est également possible de discuter avec les contributeurs via des [canaux de discussion IRC](https://wiki.documentfoundation.org/Website/IRC) qui sont reliés à [Matrix](https://matrix.to/#/!RDouOeSHcCrhQNlzLp:libera.chat) et à [Telegram](https://t.me/LibreOffice_QA)
 
 Plus globalement, The Document Foundation est gérée par [différentes fonctions](https://fr.libreoffice.org/about-us/governance/):
 
