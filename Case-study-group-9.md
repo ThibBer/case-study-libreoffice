@@ -164,7 +164,7 @@ Donc c’est une communauté guidée par l'engagement envers la qualité, la fia
 
 ## Description du pipeline de développement
 
-![pipeline](/pipeline.svg "pipeline")
+![pipeline](/pipeline.png "pipeline")
 
 Décrivez ici le pipeline de développement suivi par votre case study. Si vous ne trouvez pas assez d'informations sur ce qui est effectivement suivi, proposez-en un en fonction des informations rassemblées sur votre case study.
 
