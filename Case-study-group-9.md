@@ -181,7 +181,7 @@ Dans les deux derniers cas, le patch nécessite d'être modifié par le dévelop
 
 ### Builds
 
-En plus des daly builds exécutés par Jenkins, des builds sont déclenchés automatiquement lorsqu'une modification a lieu sur le repository du projet.
+En plus des daily builds exécutés par Jenkins, des builds sont déclenchés automatiquement lorsqu'une modification a lieu sur le repository du projet.
 
 ### Tests
 
