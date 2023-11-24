@@ -1,18 +1,19 @@
 ---
 Title: "Cas d'étude : LibreOffice"
-Description: 'Étude de cas DevOps sur LibreOffice'
+Description: "Étude de cas DevOps sur LibreOffice"
 Date: 2023-11-10
 Authors: "François BECHET, Thibaut BERG, Maxime DE RYCKE"
 Tags: "#libreoffice #devops #opensource"
 ---
+
 # Introduction
 
 Dans le cadre du cours [[INFOM126] Automated Software Engineering](https://directory.unamur.be/teaching/courses/INFOM126/2023) donné par DEVROEY Xavier et assisté par MAQUOI Jérôme,
-nous avons réalisé un case-study sur [LibreOffice](https://www.libreoffice.org) afin de répertorier différentes métriques liées au DevOps.
+nous avons réalisé une "case study" sur [LibreOffice](https://www.libreoffice.org) afin de répertorier différentes métriques liées au DevOps.
 
 Dans ce travail, nous commencerons par expliquer brièvement ce qu'est LibreOffice, le contexte dans lequel il a été créé et la liste des outils qu'il propose.
 
-Ensuite, nous donnerons notre analyse DevOps de LibreOffice, notamment en listant les différentes métriques DORA vues au cours et en analysant comment celles-ci sont mises en place. D'autres facteurs seront également passés en revue.
+Ensuite, nous détaillerons notre analyse DevOps du logiciel, notamment en listant les différentes métriques DORA vues au cours et en analysant comment celles-ci sont mises en place. D'autres facteurs seront également passés en revue.
 
 Enfin, nous proposerons notre avis concernant les améliorations qui pourraient être apportées à l'organisation du projet LibreOffice, avant de conclure.
 
@@ -42,22 +43,18 @@ Elle comporte plusieurs applications :
 
 ## Identification des facteurs mis en place favorisant le DevOps
 
-Pour chaque métrique DORA, identifier les éléments mis en place (gestion de projet, pipeline de développement, outils, pratiques de développement, ...) permettant de favoriser la métrique en question.
-
-Pour chaque facteur favorisant les performances organisationnelles et non-commerciales identifié par Forsgren et al., identifier si ce facteur est présent ou non et comment celui-ci est mis en place.
-
 ### Lead time
 
 En ce qui concerne les moyens mis en place pour améliorer le temps entre la demande et la satisfaction de celle-ci, nous pouvons d'abord mentionner l'aspect open-source. En effet, LibreOffice dispose de plusieurs [repositories Github](https://github.com/LibreOffice). Certains repositories contiennent des Github Actions, mais celles-ci semblent très peu utilisées.
 
-Ces repositories Github sont des copies "read only" de leurs repositories, car le projet LibreOffice dispose également de [son propre Git](https://git.libreoffice.org/core/). Les pull requests se font uniquement sur leur plateforme Gerrit.
+Ces repositories Github sont des copies "read only" de leur code, car le projet LibreOffice dispose également de [son propre Git](https://git.libreoffice.org/core/). Les pull requests, qui seront expliquées dans un prochain point, se font uniquement via leur plateforme Gerrit.
 
-Ceci permet donc à n'importe qui de jeter un œil sur le code pour éventuellement y contribuer en ajoutant des fonctionnalités ou en améliorant le code existant.
+Ceci permet donc à n'importe qui de jeter un œil sur le code pour éventuellement y contribuer en ajoutant des fonctionnalités, en améliorant le code existant ou en suggérant une modification.
 
-Ensuite, The Document Foundation met à disposition [une plateforme Bugzilla](https://bugs.documentfoundation.org/) pour signaler les bugs sur les différents outils inclus dans LibreOffice. Cela permet aux contributeurs de pouvoir s'y retrouver dans les différents bugs et de les corriger plus rapidement lorsqu'ils ont été signalés. Leur plateforme Bugzilla comprend une documentation, expliquant comment l'utiliser.
+Ensuite, The Document Foundation met à disposition [une plateforme Bugzilla](https://bugs.documentfoundation.org/) afin de signaler les bugs sur les différents outils inclus dans la suite LibreOffice. Cette plateforme permet aux contributeurs de pouvoir s'y retrouver dans les différents bugs et de les corriger plus rapidement lorsqu'ils ont été signalés. Leur plateforme Bugzilla comprend une documentation, expliquant comment l'utiliser.
 
-Un site web est également mis en place afin de permettre aux utilisateurs de [poser des questions](https://ask.libreoffice.org) dans différentes langues, mais également de [soumettre des idées d'améliorations](https://ask.libreoffice.org/tag/feature-request) de la suite logicielle.
-Toutefois, un [guide](https://ask.libreoffice.org/t/this-is-the-guide-how-to-use-the-ask-site/10/3) qui explique comment utiliser ce site suggère d'utiliser directement Bugzilla pour soumettre les idées d'améliorations.
+Un site web est également mis en place afin de permettre aux utilisateurs de [poser des questions](https://ask.libreoffice.org) dans différentes langues, mais également de [soumettre des idées d'améliorations](https://ask.libreoffice.org/tag/feature-request) pour la suite logicielle.
+Toutefois, un [guide](https://ask.libreoffice.org/t/this-is-the-guide-how-to-use-the-ask-site/10/3) expliquant comment utiliser ce site suggère d'utiliser directement Bugzilla pour soumettre les idées d'améliorations.
 
 Toutes ces plateformes et outils permettent ainsi d'accélérer le processus lorsqu'une demande de nouvelle fonctionnalité est soumise par un utilisateur.
 
@@ -83,15 +80,17 @@ Cependant cela demande une certaine automatisation du build process, ce qui est 
 
 ### Mean time to restore (MTTR)
 
-Signalement des bugs via deux plateformes :
+La documentation nous suggère deux plateformes pour signaler des problèmes dans LibreOffice:
 
-- [Bugzilla](https://bugs.documentfoundation.org/): permet d’ouvrir un rapport de bugs, permet de classer les bugs en donnant un nom/tag, de trouver des bugs dupliquer
+- [Bugzilla](https://bugs.documentfoundation.org/): permet d’ouvrir un rapport de bugs, de classer ceux-ci à l'aide d'un nom/tag ou encore de trouver des bugs dupliqués
 
-- [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): même chose mais pour les sites web et les services web de LibreOffice
+- [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): similaire à BugZilla mais pour les sites web et les services web de LibreOffice
 
 L'utilisation de Bugzilla et de Redmine permet de réduire le temps entre la détection d'une erreur et son patch grâce à une centralisation de la plateforme de gestion des bugs qui permet une meilleure collaboration entre les contributeurs.
 
-De plus, afin de mieux organiser ces bugs, certains contributeurs ont pour rôle de [trier](https://wiki.documentfoundation.org/QA/BugTriage) ceux-ci. Le job de ces contributeurs consiste en la confirmation et la priorisation de signalement de bugs. Ainsi, les contributeurs souhaitent les corriger pourront s'y retrouver et éventuellement corriger plus rapidement les bugs les plus critiques.
+De plus, afin de mieux organiser les bugs, certains contributeurs ont pour rôle de [trier](https://wiki.documentfoundation.org/QA/BugTriage) ceux-ci. Le job de ces contributeurs consiste en la confirmation et la priorisation de signalement de bugs. Ainsi, les contributeurs souhaitant les corriger pourront s'y retrouver et éventuellement décider corriger plus rapidement les bugs les plus critiques.
+
+Cependant, la suite LibreOffice ne proposant [pas de solution dans le cloud](https://www.libreoffice.org/download/libreoffice-online/), il n'est pas pertinent de détailler comment The Document Foundation gère les pannes de leurs services en ligne, ceux-ci n'étant pas directement liés au fonctionnement de LibreOffice.
 
 ### Change fail percentage
 
@@ -105,7 +104,7 @@ Ensuite, le projet LibreOffice sollicite également des contributeurs afin de r�
 - [Les tests unitaires](https://wiki.documentfoundation.org/Development/Unit_Tests): permettent de tester une à une les fonctions des programmes.
 - [Les tests de régression](https://wiki.documentfoundation.org/QA/Testing/Regression_Tests): permettent de s'assurer que les modifications apportées n'ont pas eu d'effet de bord sur les fonctionnalités déjà existantes.
 
-La combinaison de ces différents types de tests, lorsqu'ils couvrent suffisamment le code, permet d'assurer le bon fonctionnement du code à différents niveaux, et qu'aucun effet de bord indésirable n'a été introduit.
+La combinaison de ces différents types de tests, lorsqu'ils couvrent suffisamment le code, permet d'assurer son bon fonctionnement à différents niveaux, et qu'aucun effet de bord indésirable n'a été introduit.
 
 ## Enabling factors
 
@@ -164,20 +163,17 @@ Donc c’est une communauté guidée par l'engagement envers la qualité, la fia
 
 ## Description du pipeline de développement
 
-![pipeline](/pipeline.png "pipeline")
-
-Décrivez ici le pipeline de développement suivi par votre case study. Si vous ne trouvez pas assez d'informations sur ce qui est effectivement suivi, proposez-en un en fonction des informations rassemblées sur votre case study.
+![pipeline](./pipeline.png "pipeline")
 
 ### Création d'un patch
 
-Lorsqu'un développeur a terminé de développer sa feature ou de corriger un bug, il va soumettre un **patch** afin que ce dernier soit **reviewé**.
+Lorsqu'un développeur a terminé de développer sa fonctionnalité ou de corriger un bug, il va soumettre un **patch** afin que ce dernier passe par le processus de **review**.
 
 ### Review
 
-Une tierce personne va review le code du patch et l'analyser constructivement.
-Le résultat de la review peut être :
+Une tierce personne va revoir le code du patch et l'analyser constructivement. Le résultat de la review peut être :
 
-- Le reviewer qui a vérifié et testé le patch n'a observé **aucun problème** et le patch est donc merge dans la branche principale
+- Le reviewer qui a vérifié et testé le patch n'a observé **aucun problème** et le patch est donc "merge" sur la branche principale
 - Le reviewer a des **commentaires à faire** qui nécessitent l'attention du développeur
 - Le patch a créé de **nouveaux problèmes sur d'autres fonctionnalités** et est marqué comme "Ne peut pas être merge"
 
@@ -185,33 +181,29 @@ Dans les deux derniers cas, le patch nécessite d'être modifié par le dévelop
 
 ### Builds
 
-En plus des daly builds exécutés par Jenkins, des builds sont déclenchés automatiquement lorsqu'il y a un push sur le repository du projet
+En plus des daly builds exécutés par Jenkins, des builds sont déclenchés automatiquement lorsqu'une modification a lieu sur le repository du projet.
 
 ### Tests
 
-The Document Foundation aimerait accélérer le cycle de versions. Pour ce faire, ils ont déjà mis en place des daily builds afin
-d'accélérer le processus de test en continu des différentes mises à jour.
+The Document Foundation aimerait accélérer le cycle de versions. Pour ce faire, la fondation a déjà mis en place des daily builds afin d'accélérer le processus de test en continu des différentes mises à jour.
 
 ### Release
 
-A date fixe, le projet va être build selon un workflow idéal fournit par TheDocumentFoundation :
-**Lundi** : date limite des commits.
-**Mardi** : un **tag** est créé à partir d'un commit qui build et qui passe les tests unitaires, subséquents et de fumée.
-**Mercredi** : les builds sont upload en version de [pré-release anticipée](https://dev-builds.libreoffice.org/pre-releases).
-**Jeudi** : les builds sont uploadés en miroirs et une annonce est passée via les cannaux de communications principaux.
-**Vendredi** : les builds sont disponibles en pre-release officielle
+Le project est build à date fixe selon un workflow idéal fournit par The Document Foundation :
+
+- **Lundi** : date limite des commits.
+- **Mardi** : un **tag** est créé à partir d'un commit qui build et qui passe les tests unitaires, tests subséquents et smoke tests
+- **Mercredi** : les builds sont upload en version de [pré-release anticipée](https://dev-builds.libreoffice.org/pre-releases)
+- **Jeudi** : les builds sont mise en ligne en miroir et une annonce est passée via les cannaux de communications principaux
+- **Vendredi** : les builds sont disponibles en pre-release officielle
 
 ### Feedback & fixes
 
 ## Propositions d'améliorations
 
-### Augmentation de la fréquence des releases
-
-Pour l'instant, The Document Foundation publie une nouvelle version officielle majeure tous les 6 mois. Il serait peut-être plus judicieux de diminuer le temps entre deux releases afin de diminuer les potentiels problèmes accumulés durant cette longue période.
-
 ### Passer du système de releases à "semaine fixe" vers une release lorsque suffisamment de nouveautés sont apportées
 
-Changer de "mode" de release permettrait d'éviter de faire des releases sans réel contenu mais également éviter la pression sur les développeurs qui se dépêchent de finir leurs modifications avant la date limite.
+Changer de méthode de release permettrait d'éviter de faire des releases précipitées mais également d'éviter la pression sur les développeurs qui se dépêchent de finir leurs modifications avant la date limite. Nous pensons qu'il serait plus intéressant de sortir une version mineures lorsque plusieurs bugs ont été corrigés et que les contributeurs se sont assurés que le code modifié est stable.
 
 ### Centralisation des repositories, des actions et des tickets
 
@@ -223,28 +215,23 @@ Or, GitHub offre la possibilité de tout rassembler dans un repository (les issu
 
 ### Documentation pas à jour et désorganisée
 
-Il arrive que plusieurs pages mentionnent les mêmes informations, mais que celles-ci ne correspondent pas. Selon nous, la fondation devrait mettre à disposition une seule documentation, un peu comme leur Wiki actuel, fournissant les informations sur l'organisation entre contributeurs, les outils, les procédures à suivre pour contribuer, etc. Cette documentation devrait également être maintenue à jour.
+Il arrive que plusieurs pages mentionnent les mêmes informations, mais que celles-ci ne correspondent pas. Selon nous, The Document Foundation devrait mettre à disposition une seule documentation, un peu comme leur Wiki actuel, fournissant les informations sur l'organisation entre contributeurs, les outils, les procédures à suivre pour contribuer, etc. Cette documentation devrait également être maintenue à jour.
 
 # Conclusion
 
-En conclusion, nous avons pu observer que LibreOffice met en place un certain nombre de pratiques
-DevOps en place, à savoir, l'utilisation de la plateforme Bugzilla et d'un site web pour réduire le lead time, la mise en place d'un plan concret et adapté à l'open source pour accélérer leur deployment frequency, l'adoption de Bugzilla et de Redmine pour réduire le MTTR, l'intégration de la plateforme Gerrit, la proposition d'une liste d'experts et une suite de tests pour réduire le change fail percentage.
+En conclusion, nous avons pu observer que LibreOffice met en place un certain nombre de pratiques DevOps, à savoir l'utilisation de la plateforme Bugzilla et d'un site web pour réduire le lead time, la mise en place d'un plan concret et adapté à l'open source pour accélérer leur deployment frequency, l'adoption de Bugzilla et de Redmine pour réduire le MTTR, l'intégration de la plateforme Gerrit, la suggestion d'une liste d'experts et une suite de tests pour réduire le change fail percentage.
 
-Ensuite nous avons exploré les facteurs favorisant le DevOps chez LibreOffice, soit un développement mené par une communauté bien gérée et avec une certain structure pour le lean management, l'intégration de Jenkins, de TinderBox et d'un système de nightly builds pour favoriser le continuous delivery, une communauté auto gouvernée mettant des valeurs telle que le mérite en avant pour la partie westrums organizational culture, ainsi qu'une identité bien propre à l'open source basée sur des valeurs de liberté et de diversité pour représenter leur identité.
+Ensuite nous avons exploré les facteurs favorisant le DevOps chez LibreOffice, soit un développement mené par une communauté bien gérée et avec une certaine structure pour le lean management, l'intégration de Jenkins, de TinderBox et d'un système de nightly builds pour favoriser le continuous delivery, une communauté auto gouvernée mettant en avant des valeurs telle que le mérite pour la partie westrums organizational culture, ainsi qu'une identité bien propre à l'open source basée sur des valeurs de liberté et de diversité pour représenter leur identité.
 
-Puis, nous avons analyser le pipeline de développement suivi par LibreOffice, qui se déroule selon cet ordre, création d'un patch, review, builds, tests, release et enfin feedback et fixes.
+Après cela, nous avons analysé et résumé le pipeline de développement suivi par LibreOffice, qui se déroule selon cet ordre: création d'un patch, review, build, tests, release et enfin feedback et fixes.
 
-Enfin nous avons proposé une série de recommandations issues principalement du cours d'Automated Software Engineer pour améliorer l'automation de LibreOffice, à savoir l'augmentation de la fréquence des releases pour diminuer l'accumulation de bugs, changer le système de release à "semaine fixe" vers un système où ils font une release quand ils estime qu'il y a assez de features pour éviter les releases "vides" ainsi que la pression sur les développeurs, la centralisation de leurs repositories, de leurs actions et tickets qui pour l'instant est éclaté sur trop de plateformes ce qui rend la tâche plus difficile pour les développeurs et réduit l'attractivité pour les nouveaux développeurs, qui permettrait un développement de meilleur qualité comme on le voit sur les projets qui utilise centralise le plus gros sur Github et finalement d'offrir une documentation de meilleure qualité à savoir à jour et organisée qui aiderait les contributeurs actuels comme les nouveaux contributeurs.
+Enfin nous avons proposé une série de recommandations issues principalement du cours d'_Automated Software Engineering_ pour améliorer l'automation de LibreOffice, à savoir l'augmentation de la fréquence des releases pour diminuer l'accumulation de bugs, changer le système de release à "semaine fixe" vers un système où une release est effecutée quand assez de modifications stables ont eu lieu pour éviter les releases "vides" ou bâclées ainsi que la pression sur les développeurs, la centralisation de leurs repositories, de leurs actions et tickets qui pour l'instant est éclaté sur trop de plateformes ce qui rend la tâche plus difficile pour les développeurs et réduit l'attractivité pour les nouveaux développeurs, qui permettrait un développement de meilleur qualité comme on le voit sur les projets qui utilise centralise le plus gros sur Github et finalement d'offrir une documentation de meilleure qualité à savoir à jour et organisée qui aiderait les contributeurs actuels comme les nouveaux contributeurs.
 
 En résumé, l'analyse approfondie de l'automatisation du développement de LibreOffice, nous a permis de mieux comprendre l'importance de l'utilisation de bonnes pratiques dans le cadre du développement d'un logiciel et plus précisément de le cadre d'un développement Open Source. Les points faibles que nous avons remarqué peuvent servir de support à d'autre projet Open Source qui voudraient bénéficier de conseils généraux.
 
-# Other links
+# Liens
 
-- <https://www.documentfoundation.org/certification-qna/>
-- <https://fr.libreoffice.org/community/get-involved/>
-- <https://wiki.documentfoundation.org/Documentation/DevGuide/Office_Development#LibreOffice_Application_Environment>
-- [tests d'UI](https://github.com/LibreOffice/core/tree/32ce5fe4ed19a79b6f15a5d4d1892e6cc8d778d9/uitest)
-- [smoke tests](https://github.com/LibreOffice/core/blob/32ce5fe4ed19a79b6f15a5d4d1892e6cc8d778d9/smoketest/README.md)
-- [jenkins pipeline](https://github.com/LibreOffice/lots/blob/ed115f571ba4ebb0a5ffce3535b53d8a918b8b56/Jenkinsfile)
-- [coverity stats](https://scan.coverity.com/projects/libreoffice)
-- [websites related to LibreOffice Development](https://devcentral.libreoffice.org/)
+- [Site web de LibreOffice](https://fr.libreoffice.org/)
+- [Télécharger LibreOffice](https://fr.libreoffice.org/download/telecharger-libreoffice/)
+- [Documentation](https://wiki.documentfoundation.org/Documentation)
+- [Contribuer](https://fr.libreoffice.org/community/get-involved/)
