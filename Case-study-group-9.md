@@ -7,8 +7,6 @@ tags: []
 ---
 # Introduction
 
-![Logo LibreOffice](https://fr.libreoffice.org/themes/libreofficenew/img/logo.png)
-
 Dans le cadre du cours [[INFOM126] Automated Software Engineering](https://directory.unamur.be/teaching/courses/INFOM126/2023) donné par DEVROEY Xavier et assisté par MAQUOI Jérôme,
 nous avons réalisé un case-study sur [LibreOffice](https://www.libreoffice.org) afin de répertorier différentes métriques liées au DevOps.
 
