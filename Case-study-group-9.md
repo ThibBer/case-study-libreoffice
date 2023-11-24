@@ -22,14 +22,10 @@ Enfin, nous proposerons notre avis concernant les améliorations qui pourraient 
 
 ## Contexte et domaine d'application
 
-La création de LibreOffice remonte à septembre 2010, par [The Document Foundation](https://www.documentfoundation.org/), suite à l'annonce d'Oracle d'arrêter le développement d'Open Office. 
-Il a fallu attendre 2011 pour que Libre Office devienne populaire et qu'il soit intégré à plusieurs distributions Linux dont Ubuntu et Fedora. 
-En 2019, le nombre de [téléchargements](https://www.wikiwand.com/fr/Fichier:LibreOffice_weekly_downloads.svg) a dépassé le million. Toutefois, son futur semble aujourd'hui compromis suite à l’annonce de RedHat de ne plus supporter LibreOffice et de ne plus l'inclure dans Fedora. 
-Néanmoins, The Document Foundation continue de maintenir et d'améliorer les produits à l'heure actuelle <-- [source et plus d'explications].
-
-[comment]: # (Besoin de sources pour la partie RedHat ou plus d'informations et explications. Selon cette source :https://www.theregister.com/2023/06/07/red_hat_drops_libreoffice/, RH arrêtera de packager LibreOffice pour RHEL. LibreOffice pourra toujours être installé. Est-ce que ça rend réellement le futur de LibreOffice compromis pour autant ?)
-
-[comment]: # (Compléter cette partie avec d'autres informations)
+La création de LibreOffice remonte à septembre 2010, par [The Document Foundation](https://www.documentfoundation.org/), suite à l'annonce d'Oracle d'arrêter le développement d'Open Office.
+Il a fallu attendre 2011 pour que Libre Office devienne populaire et qu'il soit intégré à plusieurs distributions Linux dont Ubuntu et Fedora.
+En 2019, le nombre de [téléchargements](https://www.wikiwand.com/fr/Fichier:LibreOffice_weekly_downloads.svg) a dépassé le million. Toutefois, son futur semble aujourd'hui compromis suite à l’[annonce](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/46ZZ6GZ2W3G4OJYX3BIWTAW75H37TVW6/) de RedHat de ne plus supporter LibreOffice et de ne plus l'inclure dans Fedora (néanmoins toujours disponible sous forme de [Flatpak](https://flatpak.org/)).
+Néanmoins, The Document Foundation continue de maintenir et d'améliorer les produits à l'heure actuelle comme le montre la très forte activité de leur [blog](https://planet.documentfoundation.org/).
 
 ## Description générale des fonctionnalités offertes
 
@@ -95,7 +91,7 @@ Signalement des bugs via deux plateformes :
 
 - [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): même chose mais pour les sites web et les services web de LibreOffice
 
-L'utilisation de Bugzilla et de Redmine permet de réduire le temps entre la détection d'une erreur et son patch grâce à une centralisation de la plateforme de gestion des bugs qui permet une meilleure collaboration entre les contributeurs. 
+L'utilisation de Bugzilla et de Redmine permet de réduire le temps entre la détection d'une erreur et son patch grâce à une centralisation de la plateforme de gestion des bugs qui permet une meilleure collaboration entre les contributeurs.
 
 De plus, afin de mieux organiser ces bugs, certains contributeurs ont pour rôle de [trier](https://wiki.documentfoundation.org/QA/BugTriage) ceux-ci. Le job de ces contributeurs consiste en la confirmation et la priorisation de signalement de bugs. Ainsi, les contributeurs souhaitent les corriger pourront s'y retrouver et éventuellement corriger plus rapidement les bugs les plus critiques.
 
@@ -200,4 +196,8 @@ Il arrive que plusieurs pages mentionnent les mêmes informations, mais que cell
 
 - <https://www.documentfoundation.org/certification-qna/>
 - <https://fr.libreoffice.org/community/get-involved/>
-- https://wiki.documentfoundation.org/Documentation/DevGuide/Office_Development#LibreOffice_Application_Environment
+- <https://wiki.documentfoundation.org/Documentation/DevGuide/Office_Development#LibreOffice_Application_Environment>
+- [tests d'UI](https://github.com/LibreOffice/core/tree/32ce5fe4ed19a79b6f15a5d4d1892e6cc8d778d9/uitest)
+- [smoke tests](https://github.com/LibreOffice/core/blob/32ce5fe4ed19a79b6f15a5d4d1892e6cc8d778d9/smoketest/README.md)
+- [jenkins pipeline](https://github.com/LibreOffice/lots/blob/ed115f571ba4ebb0a5ffce3535b53d8a918b8b56/Jenkinsfile)
+- [coverity stats](https://scan.coverity.com/projects/libreoffice)
