@@ -219,15 +219,36 @@ Il arrive que plusieurs pages mentionnent les mêmes informations, mais que cell
 
 # Conclusion
 
-En conclusion, nous avons pu observer que LibreOffice met en place un certain nombre de pratiques DevOps, à savoir l'utilisation de la plateforme Bugzilla et d'un site web pour réduire le lead time, la mise en place d'un plan concret et adapté à l'open source pour accélérer leur deployment frequency, l'adoption de Bugzilla et de Redmine pour réduire le MTTR, l'intégration de la plateforme Gerrit, la suggestion d'une liste d'experts et une suite de tests pour réduire le change fail percentage.
+En conclusion, nous avons pu observer que LibreOffice met en place un certain nombre de pratiques **DevOps**.
+Nous pouvons citer, par exemple, l'utilisation de la plateforme Bugzilla et d'un site web pour réduire le **lead time**.
+L'équipe de LibreOffice a également mis en place un plan concret et adapté à l'open source pour accélérer leur **deployment frequency**.
+Les plateformes Bugzilla et de Redmine ont, par ailleurs, été utilisés pour réduire le **mean time to restore**.
+Nous pouvons également citer la plateforme Gerrit qui aide au développement et à la review de code.
+Et enfin, l'utilisation d'une suite de tests dans le but de réduire le **change fail percentage**.
 
-Ensuite nous avons exploré les facteurs favorisant le DevOps chez LibreOffice, soit un développement mené par une communauté bien gérée et avec une certaine structure pour le lean management, l'intégration de Jenkins, de TinderBox et d'un système de nightly builds pour favoriser le continuous delivery, une communauté auto gouvernée mettant en avant des valeurs telle que le mérite pour la partie westrums organizational culture, ainsi qu'une identité bien propre à l'open source basée sur des valeurs de liberté et de diversité pour représenter leur identité.
+Ensuite, nous avons exploré les différents facteurs favorisant le DevOps chez LibreOffice.
+A propos du **lean management**, nous pouvons citer que le développement est mené par une communauté bien gérée et avec une certaine structure.
+En ce qui concerne le **continuous delivery**, le projet LibreOffice a intégré Jenkins, TinderBox et un système de nightly builds dans leur processus.
+Pour la **westrums organizational culture**, nous pouvons citer la communauté auto gouvernée qui met en avant des valeurs telles que le mérite, ainsi qu'une identité bien propre à l'open source basée sur des valeurs de liberté et de diversité qui représentent leur identité.
 
-Après cela, nous avons analysé et résumé le pipeline de développement suivi par LibreOffice, qui se déroule selon cet ordre: création d'un patch, review, build, tests, release et enfin feedback et fixes.
+Après cela, nous avons analysé et résumé le pipeline de développement suivi par LibreOffice qui se déroule dans cet ordre : 
+1. Création d'un patch
+2. Review
+3. Build
+4. Tests
+5. Release 
+6. Feedback et fixes.
 
-Enfin nous avons proposé une série de recommandations issues principalement du cours d'_Automated Software Engineering_ pour améliorer l'automation de LibreOffice, à savoir l'augmentation de la fréquence des releases pour diminuer l'accumulation de bugs, changer le système de release à "semaine fixe" vers un système où une release est effecutée quand assez de modifications stables ont eu lieu pour éviter les releases "vides" ou bâclées ainsi que la pression sur les développeurs, la centralisation de leurs repositories, de leurs actions et tickets qui pour l'instant est éclaté sur trop de plateformes ce qui rend la tâche plus difficile pour les développeurs et réduit l'attractivité pour les nouveaux développeurs, qui permettrait un développement de meilleur qualité comme on le voit sur les projets qui utilise centralise le plus gros sur Github et finalement d'offrir une documentation de meilleure qualité à savoir à jour et organisée qui aiderait les contributeurs actuels comme les nouveaux contributeurs.
+Enfin, nous avons émis une série de recommandations issues principalement du cours d'_Automated Software Engineering_ pour améliorer le processus de développement au sein du projet LibreOffice. 
+On y retrouve le changement du système de release à "semaine fixe" vers un système où une release est effectuée lorsqu'il y a un nombre conséquent de modifications stables qui ont eu lieu.
+Ce changement évite les releases "vides" ou bâclées et diminue la pression sur les développeurs.
+On conseille également de centraliser leurs repositories, actions et tickets qui, pour l'instant, sont dispersés sur plusieurs plateformes différentes.
+La dispersion des ressources rend la tâche plus difficile aux développeurs et réduit l'attractivité pour les nouveaux contributeurs.
+Ces différents changements permettraient un développement de meilleure qualité comme on le voit sur les projets qui centralise la plupart des informations sur Github.
+La documentation sera aussi de meilleure qualité, mieux maintenue à jour, avec moins de contradictions et mieux organisée, ce qui aidera tous les contributeurs.
 
-En résumé, l'analyse approfondie de l'automatisation du développement de LibreOffice, nous a permis de mieux comprendre l'importance de l'utilisation de bonnes pratiques dans le cadre du développement d'un logiciel et plus précisément de le cadre d'un développement Open Source. Les points faibles que nous avons remarqué peuvent servir de support à d'autre projet Open Source qui voudraient bénéficier de conseils généraux.
+En résumé, l'analyse approfondie de l'automatisation du développement de LibreOffice nous a permis de mieux comprendre l'importance de l'utilisation de bonnes pratiques dans le cadre du développement d'un logiciel et plus précisément dans le cadre d'un développement Open Source.
+Les points faibles que nous avons remarqués peuvent servir de support à d'autres projets Open Source qui voudraient bénéficier de conseils généraux.
 
 # Liens
 
