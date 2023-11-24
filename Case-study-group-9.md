@@ -169,11 +169,14 @@ Donc c’est une communauté guidée par l'engagement envers la qualité, la fia
 Décrivez ici le pipeline de développement suivi par votre case study. Si vous ne trouvez pas assez d'informations sur ce qui est effectivement suivi, proposez-en un en fonction des informations rassemblées sur votre case study.
 
 ### Création d'un patch
+
 Lorsqu'un développeur a terminé de développer sa feature ou de corriger un bug, il va soumettre un **patch** afin que ce dernier soit **reviewé**.
 
 ### Review
+
 Une tierce personne va review le code du patch et l'analyser constructivement.
 Le résultat de la review peut être :
+
 - Le reviewer qui a vérifié et testé le patch n'a observé **aucun problème** et le patch est donc merge dans la branche principale
 - Le reviewer a des **commentaires à faire** qui nécessitent l'attention du développeur
 - Le patch a créé de **nouveaux problèmes sur d'autres fonctionnalités** et est marqué comme "Ne peut pas être merge"
@@ -184,15 +187,10 @@ Dans les deux derniers cas, le patch nécessite d'être modifié par le dévelop
 
 En plus des daly builds exécutés par Jenkins, des builds sont déclenchés automatiquement lorsqu'il y a un push sur le repository du projet
 
-[comment]: # (Compléter avec les infos sur quelle branche déclenche les builds)
-[comment]: # (Qu'est-ce que guerrit dans Jenkins ?)
-
 ### Tests
 
 The Document Foundation aimerait accélérer le cycle de versions. Pour ce faire, ils ont déjà mis en place des daily builds afin
 d'accélérer le processus de test en continu des différentes mises à jour.
-
-[comment]: # (Compléter avec les infos sur les tests)
 
 ### Release
 
@@ -202,8 +200,6 @@ A date fixe, le projet va être build selon un workflow idéal fournit par TheDo
 **Mercredi** : les builds sont upload en version de [pré-release anticipée](https://dev-builds.libreoffice.org/pre-releases).
 **Jeudi** : les builds sont uploadés en miroirs et une annonce est passée via les cannaux de communications principaux.
 **Vendredi** : les builds sont disponibles en pre-release officielle
-
-[comment]: # (J'ai pas trouvé beaucoup d'info sur l'automatisation des publications des builds)
 
 ### Feedback & fixes
 
@@ -231,6 +227,17 @@ Il arrive que plusieurs pages mentionnent les mêmes informations, mais que cell
 
 # Conclusion
 
+En conclusion, nous avons pu observer que LibreOffice met en place un certain nombre de pratiques
+DevOps en place, à savoir, l'utilisation de la plateforme Bugzilla et d'un site web pour réduire le lead time, la mise en place d'un plan concret et adapté à l'open source pour accélérer leur deployment frequency, l'adoption de Bugzilla et de Redmine pour réduire le MTTR, l'intégration de la plateforme Gerrit, la proposition d'une liste d'experts et une suite de tests pour réduire le change fail percentage.
+
+Ensuite nous avons exploré les facteurs favorisant le DevOps chez LibreOffice, soit un développement mené par une communauté bien gérée et avec une certain structure pour le lean management, l'intégration de Jenkins, de TinderBox et d'un système de nightly builds pour favoriser le continuous delivery, une communauté auto gouvernée mettant des valeurs telle que le mérite en avant pour la partie westrums organizational culture, ainsi qu'une identité bien propre à l'open source basée sur des valeurs de liberté et de diversité pour représenter leur identité.
+
+Puis, nous avons analyser le pipeline de développement suivi par LibreOffice, qui se déroule selon cet ordre, création d'un patch, review, builds, tests, release et enfin feedback et fixes.
+
+Enfin nous avons proposé une série de recommandations issues principalement du cours d'Automated Software Engineer pour améliorer l'automation de LibreOffice, à savoir l'augmentation de la fréquence des releases pour diminuer l'accumulation de bugs, changer le système de release à "semaine fixe" vers un système où ils font une release quand ils estime qu'il y a assez de features pour éviter les releases "vides" ainsi que la pression sur les développeurs, la centralisation de leurs repositories, de leurs actions et tickets qui pour l'instant est éclaté sur trop de plateformes ce qui rend la tâche plus difficile pour les développeurs et réduit l'attractivité pour les nouveaux développeurs, qui permettrait un développement de meilleur qualité comme on le voit sur les projets qui utilise centralise le plus gros sur Github et finalement d'offrir une documentation de meilleure qualité à savoir à jour et organisée qui aiderait les contributeurs actuels comme les nouveaux contributeurs.
+
+En résumé, l'analyse approfondie de l'automatisation du développement de LibreOffice, nous a permis de mieux comprendre l'importance de l'utilisation de bonnes pratiques dans le cadre du développement d'un logiciel et plus précisément de le cadre d'un développement Open Source. Les points faibles que nous avons remarqué peuvent servir de support à d'autre projet Open Source qui voudraient bénéficier de conseils généraux.
+
 # Other links
 
 - <https://www.documentfoundation.org/certification-qna/>
@@ -240,3 +247,4 @@ Il arrive que plusieurs pages mentionnent les mêmes informations, mais que cell
 - [smoke tests](https://github.com/LibreOffice/core/blob/32ce5fe4ed19a79b6f15a5d4d1892e6cc8d778d9/smoketest/README.md)
 - [jenkins pipeline](https://github.com/LibreOffice/lots/blob/ed115f571ba4ebb0a5ffce3535b53d8a918b8b56/Jenkinsfile)
 - [coverity stats](https://scan.coverity.com/projects/libreoffice)
+- [websites related to LibreOffice Development](https://devcentral.libreoffice.org/)
