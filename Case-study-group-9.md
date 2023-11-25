@@ -3,7 +3,7 @@ Title: "Cas d'étude : LibreOffice"
 Description: "Étude de cas DevOps sur LibreOffice"
 Date: 2023-11-10
 Authors: "François BECHET, Thibaut BERG, Maxime DE RYCKE"
-Tags: "#libreoffice #devops #opensource"
+Tags: "libreoffice devops opensource"
 ---
 
 # Introduction
