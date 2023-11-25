@@ -67,7 +67,7 @@ Ces plateformes et outils permettent ainsi d'accélérer le processus lorsqu'une
 
 Pour la release initiale d’une nouvelle version, une version alpha et ensuite une version beta sont déployées.
 
-LibreOffice sort deux versions majeures par an en même temps que la sortie de Gnome et d’autres logiciels open source importants pour marquer deux grands évènements par an.
+LibreOffice sort deux versions majeures par an en même temps que la sortie de Gnome et d’autres logiciels open source importants pour marquer deux grands évènements annuels.
 
 LibreOffice sort également une bugfix release chaque mois après la sortie de la version majeure.
 
