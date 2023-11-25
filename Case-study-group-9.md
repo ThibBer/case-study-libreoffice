@@ -91,7 +91,7 @@ La documentation nous suggère deux plateformes pour signaler des problèmes dan
 
 L'utilisation de Bugzilla et de Redmine permet de réduire le temps entre la détection d'une erreur et son patch grâce à une centralisation de la plateforme de gestion des bugs qui permet une meilleure collaboration entre les contributeurs.
 
-De plus, afin de mieux organiser les bugs, certains contributeurs ont pour rôle de [trier](https://wiki.documentfoundation.org/QA/BugTriage) ceux-ci. Le travail de ces contributeurs consiste à confirmer et à donner la priorité aux signalements de bugs. Ainsi, les contributeurs pourront s'y retrouver et éventuellement décider de corriger plus rapidement les bugs les plus critiques.
+De plus, afin de mieux organiser les bugs, certains contributeurs ont pour rôle de [trier](https://wiki.documentfoundation.org/QA/BugTriage) ceux-ci. Le travail de ces contributeurs consiste à confirmer et à donner un ordre de priorité aux signalements de bugs. Ainsi, les contributeurs pourront s'y retrouver et éventuellement décider de corriger plus rapidement les bugs les plus critiques.
 
 Cependant, la suite LibreOffice ne proposant [pas directement de solution dans le cloud](https://www.libreoffice.org/download/libreoffice-online/), il n'est pas pertinent de détailler comment The Document Foundation gère les pannes de leurs services en ligne, ceux-ci n'étant pas directement liés au fonctionnement de LibreOffice.
 
@@ -150,7 +150,7 @@ Les développeurs ont également mis en place un système de **pre-release** afi
 
 [The Document Foundation](https://www.documentfoundation.org/) est une entité auto-gouvernée sous le principe de méritocratie, c’est-à-dire que les gens sont récompensés sur base de leurs efforts, qui met le fun en avant.
 
-LibreOffice a notament été fondé avec la conviction que la culture qui émerge d’une fondation indépendante stimule le meilleur chez ses contributeurs, ce qui amène aussi à produire un logiciel de meilleure qualité pour les utilisateurs.
+LibreOffice a notamment été fondé avec la conviction que la culture qui émerge d’une fondation indépendante stimule le meilleur chez ses contributeurs, ce qui amène aussi à produire un logiciel de meilleure qualité pour les utilisateurs.
 
 Donc clairement LibreOffice est dans une culture générative avec une forte coopération de par son principe open source qui partage aussi les risques entre les collaborateurs.
 
@@ -160,7 +160,7 @@ LibreOffice incarne les principes du logiciel libre. Basé sur [les quatre liber
 
 De plus, en favorisant l'accès gratuit aux outils de productivité bureautique, LibreOffice lutte contre la fracture numérique, encourage la préservation des langues maternelles, et s'oppose aux logiciels propriétaires.
 
-Une attention particulière est aussi apportée à la [diversité](https://wiki.documentfoundation.org/Diversity) des membres au sein de la fondation.
+Une attention particulière est également apportée à la [diversité](https://wiki.documentfoundation.org/Diversity) des membres au sein de la fondation.
 
 Enfin, LibreOffice défend les droits des développeurs en utilisant des licences qui protègent l’open source comme la [license GNU](https://github.com/LibreOffice/core/blob/master/COPYING).
 
