@@ -21,7 +21,7 @@ Enfin, nous proposerons notre avis concernant les améliorations qui pourraient 
 
 ## Contexte et domaine d'application
 
-L'histoire de la création de LibreOffice remonte à [2010](https://www.libreoffice.org/about-us/libreoffice-timeline/), lorsque des membres de la communauté de la suite OpenOffice décident de créer leur propre fondation [suite au rachat de Sun Microsystems par Oracle](https://opensource.com/article/23/2/libreoffice-history), devenant le nouveau propriétaire de la célèbre suite bureautique libre. Suite à cet évènement, le projet LibreOffice, fork d'OpenOffice, voit le jour.
+L'histoire de la création de LibreOffice remonte à [2010](https://www.libreoffice.org/about-us/libreoffice-timeline/), lorsque des membres de la communauté OpenOffice décident de créer leur propre fondation [suite au rachat de Sun Microsystems par Oracle](https://opensource.com/article/23/2/libreoffice-history), devenant le nouveau propriétaire de la célèbre suite bureautique libre. Suite à cet évènement, le projet LibreOffice, fork d'OpenOffice, voit le jour.
 
 Il a fallu attendre 2011 pour voir la [sortie de la première version stable de LibreOffice](https://blog.documentfoundation.org/blog/2011/01/25/the-document-foundation-launches-libreoffice-3-3/), avec un gain en popularité qui ne s'est pas fait attendre. À l'heure actuelle, il arrive que le nombre de téléchargements hebdomadaires [dépasse le million](https://blog.documentfoundation.org/blog/2021/12/14/record-number-of-libreoffice-downloads/).
 
