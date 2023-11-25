@@ -186,23 +186,31 @@ Dans les deux derniers cas, le patch nécessite d'être modifié par le dévelop
 
 ### Builds
 
-En plus des daily builds exécutés par Jenkins, des builds sont déclenchés automatiquement lorsqu'une modification a lieu sur le repository du projet.
+En plus des daily builds exécutés par Jenkins, des builds sont déclenchés automatiquement lorsqu'une modification a lieu sur le la branche principale du projet.
 
 ### Tests
 
-The Document Foundation aimerait accélérer le cycle de versions. Pour ce faire, la fondation a déjà mis en place des daily builds afin d'accélérer le processus de test en continu des différentes mises à jour.
+The Document Foundation aimerait accélérer le cycle de versions. 
+Pour ce faire, la fondation a déjà mis en place des daily builds afin d'accélérer le processus de test en continu des différentes mises à jour.
+
+En analysant leur [fichier de configuration Jenkins](https://github.com/LibreOffice/lots/blob/ed115f571ba4ebb0a5ffce3535b53d8a918b8b56/Jenkinsfile#L33), on peut y voir une instruction qui configure l'exécution des tests.
+On remarque d'ailleurs qu'ils utilisent [maven](https://maven.apache.org/) et [Junit](https://junit.org/junit5/) pour exécuter leur suite de tests.
+
+Toujours dans ce même fichier, on peut également remarquer l'utilisation de [SonarQube](https://www.sonarsource.com/) et de [jacoco](https://www.jacoco.org/) pour analyser le code et récupérer des métriques sur la qualité du code et des tests
 
 ### Release
 
 Le projet est build à date fixe selon un workflow idéal fournit par The Document Foundation :
 
 - **Lundi** : date limite des commits.
-- **Mardi** : un **tag** est créé à partir d'un commit qui build et qui passe les tests unitaires, tests subséquents et smoke tests
+- **Mardi** : un **tag** est créé à partir d'un commit qui build et qui passe les tests unitaires, tests subséquents et [smoke tests](https://github.com/LibreOffice/core/blob/32ce5fe4ed19a79b6f15a5d4d1892e6cc8d778d9/smoketest/README.md)
 - **Mercredi** : les builds sont upload en version de [pré-release anticipée](https://dev-builds.libreoffice.org/pre-releases)
 - **Jeudi** : les builds sont mis en ligne en miroir et une annonce est passée via les canaux de communications principaux
 - **Vendredi** : les builds sont disponibles en pre-release officielle
 
-### Feedback & fixes
+### Feedback
+Lorsque la release officielle est sortie publiquement, les utilisateurs commencent à rencontrer des problèmes et souhaitent de nouvelles fonctionnalités.
+Le cycle de développement recommence et de nouveaux patchs sont recréés.
 
 ## Propositions d'améliorations
 
