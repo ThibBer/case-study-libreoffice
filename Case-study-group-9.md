@@ -77,7 +77,7 @@ Il existe deux branches principales :
 
 - Une branche Still: la release précédente pour les utilisateurs plus sensibles comme les entreprises
 
-Le déploiement à date fixe force les contributeurs à avoir une certaine discipline dans leur gestion de la modification du code, ce qui a pour effet de garder un bon rythme de déploiement malgré le côté Open Source qui implique parfois un manque de moyens.
+Le déploiement à date fixe force les contributeurs à avoir une certaine discipline dans leur gestion de la modification du code, ce qui a pour effet de garder un bon rythme de déploiement malgré le côté open source qui implique parfois un manque de moyens.
 
 Cependant cela demande une certaine automatisation du build process, ce qui est déjà prévu dans leur [plan d'accélération](https://wiki.documentfoundation.org/ReleasePlan#Accelerating_the_release_cycle).
 
@@ -254,7 +254,7 @@ Ces différents changements permettraient un développement de meilleure qualit�
 La documentation sera aussi de meilleure qualité, mieux maintenue à jour, avec moins de contradictions et mieux organisée, ce qui aidera tous les contributeurs.
 
 En résumé, l'analyse approfondie de l'automatisation du développement de LibreOffice nous a permis de mieux comprendre l'importance de l'utilisation de bonnes pratiques dans le cadre du développement d'un logiciel et plus précisément dans le cadre d'un développement Open Source.
-Les points faibles que nous avons remarqués peuvent servir de support à d'autres projets Open Source qui voudraient bénéficier de conseils généraux.
+Les points faibles que nous avons remarqués peuvent servir de support à d'autres projets open source qui voudraient bénéficier de conseils généraux.
 
 # Liens
 
