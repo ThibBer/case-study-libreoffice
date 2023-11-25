@@ -25,7 +25,7 @@ L'histoire de la création de LibreOffice remonte à [2010](https://www.libreoff
 
 Il a fallu attendre 2011 pour voir la [sortie de la première version stable de LibreOffice](https://blog.documentfoundation.org/blog/2011/01/25/the-document-foundation-launches-libreoffice-3-3/), avec un gain en popularité qui ne s'est pas fait attendre. À l'heure actuelle, il arrive que le nombre de téléchargements hebdomadaires [dépasse le million](https://blog.documentfoundation.org/blog/2021/12/14/record-number-of-libreoffice-downloads/).
 
-Toutefois, son futur pourrait sembler bouleversé suite à l’[annonce](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/46ZZ6GZ2W3G4OJYX3BIWTAW75H37TVW6/) de RedHat de ne plus supporter LibreOffice et de ne plus l'inclure dans Fedora (en revanche, la suite sera toujours disponible sous forme de [Flatpak](https://flatpak.org/)).
+Toutefois, le futur de LibreOffice pourrait sembler bouleversé suite à l’[annonce](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/46ZZ6GZ2W3G4OJYX3BIWTAW75H37TVW6/) de RedHat de ne plus le supporter et de ne plus l'inclure dans Fedora (en revanche, la suite sera toujours disponible sous forme de [Flatpak](https://flatpak.org/)).
 
 Néanmoins, The Document Foundation continue de maintenir et d'améliorer les produits à l'heure actuelle comme le montre la très forte activité sur leur [blog](https://planet.documentfoundation.org/) et sur les différentes plateformes dont nous parlerons tout au long de ce travail.
 
