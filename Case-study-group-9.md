@@ -56,7 +56,7 @@ Ensuite, The Document Foundation met à disposition [une plateforme Bugzilla](ht
 Un site web est également mis en place afin de permettre aux utilisateurs de [poser des questions](https://ask.libreoffice.org) dans différentes langues, mais également de [soumettre des idées d'améliorations](https://ask.libreoffice.org/tag/feature-request) pour la suite logicielle.
 Toutefois, un [guide](https://ask.libreoffice.org/t/this-is-the-guide-how-to-use-the-ask-site/10/3) expliquant comment utiliser ce site suggère d'utiliser directement Bugzilla pour soumettre les idées d'améliorations.
 
-Toutes ces plateformes et outils permettent ainsi d'accélérer le processus lorsqu'une demande de nouvelle fonctionnalité est soumise par un utilisateur.
+Tous ces outils et plateformes permettent ainsi d'accélérer le processus lorsqu'une demande de nouvelle fonctionnalité est soumise par un utilisateur.
 
 ### Deployment frequency
 
@@ -88,7 +88,7 @@ La documentation nous suggère deux plateformes pour signaler des problèmes dan
 
 L'utilisation de Bugzilla et de Redmine permet de réduire le temps entre la détection d'une erreur et son patch grâce à une centralisation de la plateforme de gestion des bugs qui permet une meilleure collaboration entre les contributeurs.
 
-De plus, afin de mieux organiser les bugs, certains contributeurs ont pour rôle de [trier](https://wiki.documentfoundation.org/QA/BugTriage) ceux-ci. Le job de ces contributeurs consiste en la confirmation et la priorisation de signalement de bugs. Ainsi, les contributeurs souhaitant les corriger pourront s'y retrouver et éventuellement décider corriger plus rapidement les bugs les plus critiques.
+De plus, afin de mieux organiser les bugs, certains contributeurs ont pour rôle de [trier](https://wiki.documentfoundation.org/QA/BugTriage) ceux-ci. Le job de ces contributeurs consiste en la confirmation et la priorisation de signalement de bugs. Ainsi, les contributeurs souhaitant les corriger pourront s'y retrouver et éventuellement décider de corriger plus rapidement les bugs les plus critiques.
 
 Cependant, la suite LibreOffice ne proposant [pas de solution dans le cloud](https://www.libreoffice.org/download/libreoffice-online/), il n'est pas pertinent de détailler comment The Document Foundation gère les pannes de leurs services en ligne, ceux-ci n'étant pas directement liés au fonctionnement de LibreOffice.
 
@@ -98,15 +98,15 @@ Afin de réduire le taux d'erreurs lors de changements dans le code, The Documen
 
 Tout d'abord, toute demande de modification de code passe par une étape de revue de code via [leur plateforme Gerrit](https://gerrit.libreoffice.org), à travers une pull request. Ainsi, tout code écrit par un contributeur sur sa branche sera revu avant d'être fusionné sur la branche principale. Pour revoir les changements des contributeurs, The Document Foundation propose une [liste d'experts](https://wiki.documentfoundation.org/FindTheExpert) dans divers domaines, pouvant être ajoutés à la pull request.
 
-D'une part, ces pull requests permettent de rassembler plusieurs perspectives sur le code. Le reviewer pourrait trouver des défauts dans le code que le développeur n'aurait pas soupçonné. De plus, la relecture du code par une personne extérieure permet de s'assurer de sa lisibilité et de sa confirmité aux normes établies (par exemple au niveau de différentes métriques ou des conventions). En résumé, ces revues de code permettent d'assurer la un certain niveau de qualité de ce dernier, qui sera donc moins susceptible de provoquer des erreurs et plus facile à maintenir.
+D'une part, ces pull requests permettent de rassembler plusieurs perspectives sur le code. Le reviewer pourrait trouver des défauts dans le code que le développeur n'aurait pas soupçonné. De plus, la relecture du code par une personne extérieure permet de s'assurer de sa lisibilité et de sa conformité aux normes établies (par exemple au niveau de différentes métriques ou des conventions). En résumé, ces revues de code permettent d'assurer la un certain niveau de qualité de ce dernier, qui sera donc moins susceptible de provoquer des erreurs et plus facile à maintenir.
 
-Ensuite, le projet LibreOffice sollicite également des contributeurs afin de réaliser [plusieurs sortes de tests](https://wiki.documentfoundation.org/QA), automatiques ou manuels. Parmis ces types de tests, nous pouvons notamment citer:
+Ensuite, le projet LibreOffice sollicite également des contributeurs afin de réaliser [plusieurs sortes de tests](https://wiki.documentfoundation.org/QA), automatiques ou manuels. Parmi ces types de tests, nous pouvons notamment citer :
 
 - [Les tests d'interface (UI tests)](https://wiki.documentfoundation.org/Development/UITests): permettent de tester le comportement des interfaces utilisateur
 - [Les tests unitaires](https://wiki.documentfoundation.org/Development/Unit_Tests): permettent de tester une à une les fonctions des programmes.
 - [Les tests de régression](https://wiki.documentfoundation.org/QA/Testing/Regression_Tests): permettent de s'assurer que les modifications apportées n'ont pas eu d'effet de bord sur les fonctionnalités déjà existantes.
 
-La combinaison de ces différents types de tests, lorsqu'ils couvrent suffisamment le code, permet d'assurer son bon fonctionnement à différents niveaux, et qu'aucun effet de bord indésirable n'a été introduit. Il permet donc de montrer, dans une certaine mesure, que le code rédigé se comporte comme attendu.
+La combinaison de ces différents types de tests, lorsqu'ils couvrent suffisamment de code, permet d'assurer son bon fonctionnement à différents niveaux, et qu'aucun effet de bord indésirable n'a été introduit. Il permet donc de montrer, dans une certaine mesure, que le code rédigé se comporte comme attendu.
 
 ## Enabling factors
 
@@ -147,7 +147,7 @@ Les développeurs ont également mis en place un système de **pre-release** afi
 
 [The Document Foundation](https://www.documentfoundation.org/) est une entité auto gouvernée sous le principe de méritocratie, c’est-à-dire que les gens sont récompensés sur base de leurs efforts, qui met le fun en avant.
 
-LibreOffice a été fondé avec la conviction que la culture qui émerge d’une fondation indépendante stimule le meilleur chez ses contributeurs ce qui amène aussi à produire un logiciel de meilleure qualité pour les utilisateurs.
+LibreOffice a été fondé avec la conviction que la culture qui émerge d’une fondation indépendante stimule le meilleur chez ses contributeurs, ce qui amène aussi à produire un logiciel de meilleure qualité pour les utilisateurs.
 
 Donc clairement LibreOffice est dans une culture générative avec une forte coopération de par son principe open source qui partage aussi les risques entre les collaborateurs.
 
@@ -159,7 +159,7 @@ En favorisant l'accès gratuit aux outils de productivité bureautique, LibreOff
 
 Une attention particulière est apportée à la [diversité](https://wiki.documentfoundation.org/Diversity) des membres au sein de la fondation.
 
-LibreOffice protège les droits des développeurs en utilisant des licences qui protège l’open source comme la [license GNU](https://github.com/LibreOffice/core/blob/master/COPYING).
+LibreOffice protège les droits des développeurs en utilisant des licences qui protègent l’open source comme la [license GNU](https://github.com/LibreOffice/core/blob/master/COPYING).
 
 Donc c’est une communauté guidée par l'engagement envers la qualité, la fiabilité, la sécurité et la flexibilité des Logiciels Libres qui offre des opportunités de contribution variées conformément aux idées de The Document Foundation.
 
@@ -191,12 +191,12 @@ The Document Foundation aimerait accélérer le cycle de versions. Pour ce faire
 
 ### Release
 
-Le project est build à date fixe selon un workflow idéal fournit par The Document Foundation :
+Le projet est build à date fixe selon un workflow idéal fournit par The Document Foundation :
 
 - **Lundi** : date limite des commits.
 - **Mardi** : un **tag** est créé à partir d'un commit qui build et qui passe les tests unitaires, tests subséquents et smoke tests
 - **Mercredi** : les builds sont upload en version de [pré-release anticipée](https://dev-builds.libreoffice.org/pre-releases)
-- **Jeudi** : les builds sont mise en ligne en miroir et une annonce est passée via les cannaux de communications principaux
+- **Jeudi** : les builds sont mis en ligne en miroir et une annonce est passée via les canaux de communications principaux
 - **Vendredi** : les builds sont disponibles en pre-release officielle
 
 ### Feedback & fixes
@@ -205,7 +205,7 @@ Le project est build à date fixe selon un workflow idéal fournit par The Docum
 
 ### Passer du système de releases à "semaine fixe" vers une release lorsque suffisamment de nouveautés sont apportées
 
-Changer de méthode de release permettrait d'éviter de faire des releases précipitées mais également d'éviter la pression sur les développeurs qui se dépêchent de finir leurs modifications avant la date limite. Nous pensons qu'il serait plus intéressant de sortir une version mineures lorsque plusieurs bugs ont été corrigés et que les contributeurs se sont assurés que le code modifié est stable.
+Changer de méthode de release permettrait d'éviter de faire des releases précipitées mais également d'éviter la pression sur les développeurs qui se dépêchent de finir leurs modifications avant la date limite. Nous pensons qu'il serait plus intéressant de sortir une version mineure lorsque plusieurs bugs ont été corrigés et que les contributeurs se sont assurés que le code modifié est stable.
 
 ### Centralisation des repositories, des actions et des tickets
 
@@ -224,12 +224,12 @@ Il arrive que plusieurs pages mentionnent les mêmes informations, mais que cell
 En conclusion, nous avons pu observer que LibreOffice met en place un certain nombre de pratiques **DevOps**.
 Nous pouvons citer, par exemple, l'utilisation de la plateforme Bugzilla et d'un site web pour réduire le **lead time**.
 L'équipe de LibreOffice a également mis en place un plan concret et adapté à l'open source pour accélérer leur **deployment frequency**.
-Les plateformes Bugzilla et de Redmine ont, par ailleurs, été utilisés pour réduire le **mean time to restore**.
+Les plateformes Bugzilla et de Redmine ont, par ailleurs, été utilisées pour réduire le **mean time to restore**.
 Nous pouvons également citer la plateforme Gerrit qui aide au développement et à la review de code.
 Et enfin, l'utilisation d'une suite de tests dans le but de réduire le **change fail percentage**.
 
 Ensuite, nous avons exploré les différents facteurs favorisant le DevOps chez LibreOffice.
-A propos du **lean management**, nous pouvons citer que le développement est mené par une communauté bien gérée et avec une certaine structure.
+À propos du **lean management**, nous pouvons citer que le développement est mené par une communauté bien gérée et avec une certaine structure.
 En ce qui concerne le **continuous delivery**, le projet LibreOffice a intégré Jenkins, TinderBox et un système de nightly builds dans leur processus.
 Pour la **westrums organizational culture**, nous pouvons citer la communauté auto gouvernée qui met en avant des valeurs telles que le mérite, ainsi qu'une identité bien propre à l'open source basée sur des valeurs de liberté et de diversité qui représentent leur identité.
 
@@ -247,7 +247,7 @@ On y retrouve le changement du système de release à "semaine fixe" vers un sys
 Ce changement évite les releases "vides" ou bâclées et diminue la pression sur les développeurs.
 On conseille également de centraliser leurs repositories, actions et tickets qui, pour l'instant, sont dispersés sur plusieurs plateformes différentes.
 La dispersion des ressources rend la tâche plus difficile aux développeurs et réduit l'attractivité pour les nouveaux contributeurs.
-Ces différents changements permettraient un développement de meilleure qualité comme on le voit sur les projets qui centralise la plupart des informations sur Github.
+Ces différents changements permettraient un développement de meilleure qualité comme on le voit sur des projets qui centralisent la plupart des informations sur Github.
 La documentation sera aussi de meilleure qualité, mieux maintenue à jour, avec moins de contradictions et mieux organisée, ce qui aidera tous les contributeurs.
 
 En résumé, l'analyse approfondie de l'automatisation du développement de LibreOffice nous a permis de mieux comprendre l'importance de l'utilisation de bonnes pratiques dans le cadre du développement d'un logiciel et plus précisément dans le cadre d'un développement Open Source.
