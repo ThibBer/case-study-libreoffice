@@ -138,7 +138,7 @@ Pour le continuous delivery, The Document Foundation utilise [Jenkins](https://j
 Sur leur Jenkins, nous pouvons voir que des [builds journaliers](https://dev-builds.libreoffice.rg/daily/) sont lancés pour leurs applications.
 Lancer des builds régulièrement permet de tester le code plus souvent et ainsi pouvoir identifier au plus tôt les différents problèmes présents.
 
-Ils ont recourt à [TinderBox](https://ci.libreoffice.org/view/tb%20platform%20status) qui est leur outil d'aide à l'intégration continue. Ce dernier vérifie si le code de chaque projet compile sans erreurs et si la suite des tests est passée avec succès.
+Ils ont recours à [TinderBox](https://ci.libreoffice.org/view/tb%20platform%20status) qui est leur outil d'aide à l'intégration continue. Ce dernier vérifie si le code de chaque projet compile sans erreurs et si la suite des tests est passée avec succès.
 Un système de couleur permet de voir rapidement quels builds ont échoué ou réussi.
 Sur le TinderBox de LibreOffice, lorsqu'un build échoue, on retrouve également le nom des personnes qui ont commit depuis le dernier build réussi.
 Il s'agit d'un outil très visuel qui aide à déterminer quel projet nécessite une attention particulière afin de résoudre les différents bugs.
