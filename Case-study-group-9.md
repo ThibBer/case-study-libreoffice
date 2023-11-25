@@ -109,7 +109,7 @@ Ensuite, le projet LibreOffice sollicite également des contributeurs afin de r�
 - [Les tests unitaires](https://wiki.documentfoundation.org/Development/Unit_Tests): permettent de tester une à une les fonctions des programmes.
 - [Les tests de régression](https://wiki.documentfoundation.org/QA/Testing/Regression_Tests): permettent de s'assurer que les modifications apportées n'ont pas eu d'effet de bord sur les fonctionnalités déjà existantes.
 
-La combinaison de ces différents types de tests, lorsqu'ils couvrent suffisamment le code, permet d'assurer son bon fonctionnement à différents niveaux, et qu'aucun effet de bord indésirable n'a été introduit. Il permet donc de montrer, dans une certaine mesure, que le code rédigé se comporte comme attendu.
+La combinaison de ces différents types de tests, lorsqu'ils couvrent suffisamment de code, permet d'assurer son bon fonctionnement à différents niveaux, et qu'aucun effet de bord indésirable n'a été introduit. Il permet donc de montrer, dans une certaine mesure, que le code rédigé se comporte comme attendu.
 
 ## Enabling factors
 
@@ -199,7 +199,7 @@ Le projet est build à date fixe selon un workflow idéal fournit par The Docume
 - **Lundi** : date limite des commits.
 - **Mardi** : un **tag** est créé à partir d'un commit qui build et qui passe les tests unitaires, tests subséquents et smoke tests
 - **Mercredi** : les builds sont upload en version de [pré-release anticipée](https://dev-builds.libreoffice.org/pre-releases)
-- **Jeudi** : les builds sont mis en ligne en miroir et une annonce est passée via les cannaux de communications principaux
+- **Jeudi** : les builds sont mis en ligne en miroir et une annonce est passée via les canaux de communications principaux
 - **Vendredi** : les builds sont disponibles en pre-release officielle
 
 ### Feedback & fixes
@@ -208,7 +208,7 @@ Le projet est build à date fixe selon un workflow idéal fournit par The Docume
 
 ### Passer du système de releases à "semaine fixe" vers une release lorsque suffisamment de nouveautés sont apportées
 
-Changer de méthode de release permettrait d'éviter de faire des releases précipitées mais également d'éviter la pression sur les développeurs qui se dépêchent de finir leurs modifications avant la date limite. Nous pensons qu'il serait plus intéressant de sortir une version mineures lorsque plusieurs bugs ont été corrigés et que les contributeurs se sont assurés que le code modifié est stable.
+Changer de méthode de release permettrait d'éviter de faire des releases précipitées mais également d'éviter la pression sur les développeurs qui se dépêchent de finir leurs modifications avant la date limite. Nous pensons qu'il serait plus intéressant de sortir une version mineure lorsque plusieurs bugs ont été corrigés et que les contributeurs se sont assurés que le code modifié est stable.
 
 ### Centralisation des repositories, des actions et des tickets
 
@@ -232,7 +232,7 @@ Nous pouvons également citer la plateforme Gerrit qui aide au développement et
 Et enfin, l'utilisation d'une suite de tests dans le but de réduire le **change fail percentage**.
 
 Ensuite, nous avons exploré les différents facteurs favorisant le DevOps chez LibreOffice.
-A propos du **lean management**, nous pouvons citer que le développement est mené par une communauté bien gérée et avec une certaine structure.
+À propos du **lean management**, nous pouvons citer que le développement est mené par une communauté bien gérée et avec une certaine structure.
 En ce qui concerne le **continuous delivery**, le projet LibreOffice a intégré Jenkins, TinderBox et un système de nightly builds dans leur processus.
 Pour la **westrums organizational culture**, nous pouvons citer la communauté auto gouvernée qui met en avant des valeurs telles que le mérite, ainsi qu'une identité bien propre à l'open source basée sur des valeurs de liberté et de diversité qui représentent leur identité.
 
