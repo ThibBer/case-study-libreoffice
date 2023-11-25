@@ -87,11 +87,11 @@ La documentation nous suggère deux plateformes pour signaler des problèmes dan
 
 - [Bugzilla](https://bugs.documentfoundation.org/): permet d’ouvrir un rapport de bugs, de classer ceux-ci à l'aide d'un nom/tag ou encore de trouver des bugs dupliqués
 
-- [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): similaire à BugZilla mais pour les sites web et les services web liés à LibreOffice
+- [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): similaire à Bugzilla mais pour les sites web et les services web liés à LibreOffice
 
 L'utilisation de Bugzilla et de Redmine permet de réduire le temps entre la détection d'une erreur et son patch grâce à une centralisation de la plateforme de gestion des bugs qui permet une meilleure collaboration entre les contributeurs.
 
-De plus, afin de mieux organiser les bugs, certains contributeurs ont pour rôle de [trier](https://wiki.documentfoundation.org/QA/BugTriage) ceux-ci. Le job de ces contributeurs consiste en la confirmation et la priorisation de signalement de bugs. Ainsi, les contributeurs pourront s'y retrouver et éventuellement décider de corriger plus rapidement les bugs les plus critiques.
+De plus, afin de mieux organiser les bugs, certains contributeurs ont pour rôle de [trier](https://wiki.documentfoundation.org/QA/BugTriage) ceux-ci. Le travail de ces contributeurs consiste à confirmer et à donner un ordre de priorité aux signalements de bugs. Ainsi, les contributeurs pourront s'y retrouver et éventuellement décider de corriger plus rapidement les bugs les plus critiques.
 
 Cependant, la suite LibreOffice ne proposant [pas directement de solution dans le cloud](https://www.libreoffice.org/download/libreoffice-online/), il n'est pas pertinent de détailler comment The Document Foundation gère les pannes de leurs services en ligne, ceux-ci n'étant pas directement liés au fonctionnement de LibreOffice.
 
@@ -150,7 +150,7 @@ Les développeurs ont également mis en place un système de **pre-release** afi
 
 [The Document Foundation](https://www.documentfoundation.org/) est une entité auto-gouvernée sous le principe de méritocratie, c’est-à-dire que les gens sont récompensés sur base de leurs efforts, qui met le fun en avant.
 
-LibreOffice a été fondé avec la conviction que la culture qui émerge d’une fondation indépendante stimule le meilleur chez ses contributeurs, ce qui amène aussi à produire un logiciel de meilleure qualité pour les utilisateurs.
+LibreOffice a notamment été fondé avec la conviction que la culture qui émerge d’une fondation indépendante stimule le meilleur chez ses contributeurs, ce qui amène aussi à produire un logiciel de meilleure qualité pour les utilisateurs.
 
 Donc clairement LibreOffice est dans une culture générative avec une forte coopération de par son principe open source qui partage aussi les risques entre les collaborateurs.
 
@@ -158,13 +158,13 @@ Donc clairement LibreOffice est dans une culture générative avec une forte coo
 
 LibreOffice incarne les principes du logiciel libre. Basé sur [les quatre libertés fondamentales](https://fr.libreoffice.org/about-us/who-are-we/), le projet promeut la liberté d'exécution, de copie, de distribution, d'étude, de modification et d'amélioration du logiciel.
 
-En favorisant l'accès gratuit aux outils de productivité bureautique, LibreOffice lutte contre la fracture numérique, encourage la préservation des langues maternelles, et s'oppose aux logiciels propriétaires.
+De plus, en favorisant l'accès gratuit aux outils de productivité bureautique, LibreOffice lutte contre la fracture numérique, encourage la préservation des langues maternelles, et s'oppose aux logiciels propriétaires.
 
-Une attention particulière est apportée à la [diversité](https://wiki.documentfoundation.org/Diversity) des membres au sein de la fondation.
+Une attention particulière est également apportée à la [diversité](https://wiki.documentfoundation.org/Diversity) des membres au sein de la fondation.
 
-LibreOffice défend les droits des développeurs en utilisant des licences qui protègent l’open source comme la [license GNU](https://github.com/LibreOffice/core/blob/master/COPYING).
+Enfin, LibreOffice défend les droits des développeurs en utilisant des licences qui protègent l’open source comme la [license GNU](https://github.com/LibreOffice/core/blob/master/COPYING).
 
-Il s'agit donc d'une communauté guidée par l'engagement envers la qualité, la fiabilité, la sécurité et la flexibilité des logiciels libres qui offre des opportunités de contribution variées conformément aux idées de The Document Foundation.
+Il s'agit donc d'une communauté guidée par l'engagement envers la qualité, la fiabilité, la sécurité et la flexibilité des logiciels libres et qui offre des opportunités de contribution variées conformément aux idées de The Document Foundation.
 
 ## Description du pipeline de développement
 
@@ -196,13 +196,13 @@ Pour ce faire, la fondation a déjà mis en place des daily builds afin d'accél
 En analysant leur [fichier de configuration Jenkins](https://github.com/LibreOffice/lots/blob/ed115f571ba4ebb0a5ffce3535b53d8a918b8b56/Jenkinsfile#L33), on peut y voir une instruction qui configure l'exécution des tests.
 On remarque d'ailleurs qu'ils utilisent [maven](https://maven.apache.org/) et [Junit](https://junit.org/junit5/) pour exécuter leur suite de tests.
 
-Toujours dans ce même fichier, on peut également remarquer l'utilisation de [SonarQube](https://www.sonarsource.com/) et de [jacoco](https://www.jacoco.org/) pour analyser le code et récupérer des métriques sur la qualité du code et des tests
+Toujours dans ce même fichier, on peut également remarquer l'utilisation de [SonarQube](https://www.sonarsource.com/) et de [JaCoCo](https://www.jacoco.org/) pour analyser le code et récupérer des métriques sur la qualité du code et des tests
 
 ### Release
 
 Le projet est build à date fixe selon un workflow idéal fournit par The Document Foundation :
 
-- **Lundi** : date limite des commits.
+- **Lundi** : date limite des commits
 - **Mardi** : un **tag** est créé à partir d'un commit qui build et qui passe les tests unitaires, tests subséquents et [smoke tests](https://github.com/LibreOffice/core/blob/32ce5fe4ed19a79b6f15a5d4d1892e6cc8d778d9/smoketest/README.md)
 - **Mercredi** : les builds sont upload en version de [pré-release anticipée](https://dev-builds.libreoffice.org/pre-releases)
 - **Jeudi** : les builds sont mis en ligne en miroir et une annonce est passée via les canaux de communications principaux
@@ -222,9 +222,9 @@ Changer de méthode de release permettrait d'éviter de faire des releases préc
 
 Comme expliqué précédemment, les repositories Github de LibreOffice sont uniquement des copies "read only" de leurs repositories sur leur plateforme Git. Il est également explicitement demandé de ne pas faire de pull requests directement sur Github mais sur leur instance Gerrit.
 
-De plus, les signalements de bugs et les demandes d'ajout de fonctionnalités se font sur Bugzilla, Redmine ou autres plateformes. Toutes ces actions se retrouvent éparpillées et les versions des outils cités précédemment semblent relativement anciennes et peu agréables à utiliser.
+De plus, les signalements de bugs et les demandes d'ajout de fonctionnalités se font sur Bugzilla, Redmine ou d'autres plateformes. Toutes ces actions se retrouvent éparpillées et les versions des outils cités précédemment semblent relativement anciennes et peu agréables à utiliser.
 
-Or, GitHub offre la possibilité de tout rassembler dans un repository (les issues pour les suggestions de fonctionnalités ou les signalements de bugs, les pull requests pour la revue de code, les actions pour automatiser certaines tâches, etc.). Ainsi, tout y serait rassemblé, bien intégré et cela éviterait les contributeurs de devoir naviguer entre plusieurs plateformes.
+Or, GitHub offre la possibilité de tout rassembler dans un repository (les issues pour les suggestions de fonctionnalités ou les signalements de bugs, les pull requests pour la revue de code, les actions pour automatiser certaines tâches, etc.). Ainsi, tout y serait rassemblé, bien intégré et cela éviterait aux contributeurs de devoir naviguer entre plusieurs plateformes.
 
 ### Documentation pas à jour et désorganisée
 
@@ -251,7 +251,7 @@ Après cela, nous avons analysé et résumé le pipeline de développement suivi
 3. Build
 4. Tests
 5. Release
-6. Feedback et fixes.
+6. Feedback et fixes
 
 Enfin, nous avons émis une série de recommandations issues principalement du cours d'_Automated Software Engineering_ pour améliorer le processus de développement au sein du projet LibreOffice.
 On y retrouve le changement du système de release à "semaine fixe" vers un système où une release est effectuée lorsqu'il y a un nombre conséquent de modifications stables qui ont eu lieu.
