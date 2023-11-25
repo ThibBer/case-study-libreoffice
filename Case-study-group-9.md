@@ -87,7 +87,7 @@ La documentation nous suggère deux plateformes pour signaler des problèmes dan
 
 - [Bugzilla](https://bugs.documentfoundation.org/): permet d’ouvrir un rapport de bugs, de classer ceux-ci à l'aide d'un nom/tag ou encore de trouver des bugs dupliqués
 
-- [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): similaire à BugZilla mais pour les sites web et les services web de LibreOffice
+- [Redmine](https://redmine.documentfoundation.org/projects?jump=welcome): similaire à BugZilla mais pour les sites web et les services web liés à LibreOffice
 
 L'utilisation de Bugzilla et de Redmine permet de réduire le temps entre la détection d'une erreur et son patch grâce à une centralisation de la plateforme de gestion des bugs qui permet une meilleure collaboration entre les contributeurs.
 
