@@ -96,7 +96,9 @@ Cependant, la suite LibreOffice ne proposant [pas de solution dans le cloud](htt
 
 Afin de réduire le taux d'erreurs lors de changements dans le code, The Document Foundation met en place plusieurs pratiques assez classiques.
 
-Tout d'abord, toute demande de modification de code passe par une étape de revue de code via [leur plateforme Gerrit](https://gerrit.libreoffice.org), à travers une pull request. Ainsi, tout code écrit par un contributeur sur sa branche sera revu avant d'être fusionné sur la branche principale. Pour revoir les changements des contributeurs, The Document Foundation propose une [liste d'experts](https://wiki.documentfoundation.org/FindTheExpert) dans divers domaines, pouvant être ajoutés à la pull request. Ces revues de code permettent d'assurer la maintenance d'un certain niveau de qualité au niveau du code, qui sera donc moins susceptible de provoquer des erreurs.
+Tout d'abord, toute demande de modification de code passe par une étape de revue de code via [leur plateforme Gerrit](https://gerrit.libreoffice.org), à travers une pull request. Ainsi, tout code écrit par un contributeur sur sa branche sera revu avant d'être fusionné sur la branche principale. Pour revoir les changements des contributeurs, The Document Foundation propose une [liste d'experts](https://wiki.documentfoundation.org/FindTheExpert) dans divers domaines, pouvant être ajoutés à la pull request.
+
+D'une part, ces pull requests permettent de rassembler plusieurs perspectives sur le code. Le reviewer pourrait trouver des défauts dans le code que le développeur n'aurait pas soupçonné. De plus, la relecture du code par une personne extérieure permet de s'assurer de sa lisibilité et de sa confirmité aux normes établies (par exemple au niveau de différentes métriques ou des conventions). En résumé, ces revues de code permettent d'assurer la un certain niveau de qualité de ce dernier, qui sera donc moins susceptible de provoquer des erreurs et plus facile à maintenir.
 
 Ensuite, le projet LibreOffice sollicite également des contributeurs afin de réaliser [plusieurs sortes de tests](https://wiki.documentfoundation.org/QA), automatiques ou manuels. Parmis ces types de tests, nous pouvons notamment citer:
 
@@ -104,7 +106,7 @@ Ensuite, le projet LibreOffice sollicite également des contributeurs afin de r�
 - [Les tests unitaires](https://wiki.documentfoundation.org/Development/Unit_Tests): permettent de tester une à une les fonctions des programmes.
 - [Les tests de régression](https://wiki.documentfoundation.org/QA/Testing/Regression_Tests): permettent de s'assurer que les modifications apportées n'ont pas eu d'effet de bord sur les fonctionnalités déjà existantes.
 
-La combinaison de ces différents types de tests, lorsqu'ils couvrent suffisamment le code, permet d'assurer son bon fonctionnement à différents niveaux, et qu'aucun effet de bord indésirable n'a été introduit.
+La combinaison de ces différents types de tests, lorsqu'ils couvrent suffisamment le code, permet d'assurer son bon fonctionnement à différents niveaux, et qu'aucun effet de bord indésirable n'a été introduit. Il permet donc de montrer, dans une certaine mesure, que le code rédigé se comporte comme attendu.
 
 ## Enabling factors
 
@@ -231,15 +233,16 @@ A propos du **lean management**, nous pouvons citer que le développement est me
 En ce qui concerne le **continuous delivery**, le projet LibreOffice a intégré Jenkins, TinderBox et un système de nightly builds dans leur processus.
 Pour la **westrums organizational culture**, nous pouvons citer la communauté auto gouvernée qui met en avant des valeurs telles que le mérite, ainsi qu'une identité bien propre à l'open source basée sur des valeurs de liberté et de diversité qui représentent leur identité.
 
-Après cela, nous avons analysé et résumé le pipeline de développement suivi par LibreOffice qui se déroule dans cet ordre : 
+Après cela, nous avons analysé et résumé le pipeline de développement suivi par LibreOffice qui se déroule dans cet ordre :
+
 1. Création d'un patch
 2. Review
 3. Build
 4. Tests
-5. Release 
+5. Release
 6. Feedback et fixes.
 
-Enfin, nous avons émis une série de recommandations issues principalement du cours d'_Automated Software Engineering_ pour améliorer le processus de développement au sein du projet LibreOffice. 
+Enfin, nous avons émis une série de recommandations issues principalement du cours d'_Automated Software Engineering_ pour améliorer le processus de développement au sein du projet LibreOffice.
 On y retrouve le changement du système de release à "semaine fixe" vers un système où une release est effectuée lorsqu'il y a un nombre conséquent de modifications stables qui ont eu lieu.
 Ce changement évite les releases "vides" ou bâclées et diminue la pression sur les développeurs.
 On conseille également de centraliser leurs repositories, actions et tickets qui, pour l'instant, sont dispersés sur plusieurs plateformes différentes.
