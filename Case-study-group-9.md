@@ -21,13 +21,13 @@ Enfin, nous proposerons notre avis concernant les améliorations qui pourraient 
 
 ## Contexte et domaine d'application
 
-L'histoire de la création de LibreOffice remonte à [2010](https://www.libreoffice.org/about-us/libreoffice-timeline/), lorsque des membres de la communauté d'OpenOffice décident de créer leur propre fondation [suite au rachat de Sun Microsystems par Oracle](https://opensource.com/article/23/2/libreoffice-history) l'année précédente, devenant le nouveau propriétaire d'OpenOffice. Suite à cet évènement, le projet LibreOffice, fork de la suite OpenOffice, voit le jour.
+L'histoire de la création de LibreOffice remonte à [2010](https://www.libreoffice.org/about-us/libreoffice-timeline/), lorsque des membres de la communauté de la suite OpenOffice décident de créer leur propre fondation [suite au rachat de Sun Microsystems par Oracle](https://opensource.com/article/23/2/libreoffice-history) l'année précédente. Ainsi, Oracle devient le nouveau propriétaire de la célèbre suite bureautique libre. Suite à cet évènement, le projet LibreOffice, fork d'OpenOffice, voit le jour.
 
-Il a fallu attendre 2011 pour voir la [sortie de la première version stable de LibreOffice](https://blog.documentfoundation.org/blog/2011/01/25/the-document-foundation-launches-libreoffice-3-3/). Le gain en popularité fut relativement rapide. À l'heure actuelle, il arrive que le nombre de téléchargements hebdomadaires [dépasse le million](https://blog.documentfoundation.org/blog/2021/12/14/record-number-of-libreoffice-downloads/).
+Il a fallu attendre 2011 pour voir la [sortie de la première version stable de LibreOffice](https://blog.documentfoundation.org/blog/2011/01/25/the-document-foundation-launches-libreoffice-3-3/), avec un gain en popularité qui ne s'est pas fait attendre. À l'heure actuelle, il arrive que le nombre de téléchargements hebdomadaire [dépasse le million](https://blog.documentfoundation.org/blog/2021/12/14/record-number-of-libreoffice-downloads/).
 
-Toutefois, son futur semble aujourd'hui compromis suite à l’[annonce](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/46ZZ6GZ2W3G4OJYX3BIWTAW75H37TVW6/) de RedHat de ne plus supporter LibreOffice et de ne plus l'inclure dans Fedora (en revanche, la suite sera toujours disponible sous forme de [Flatpak](https://flatpak.org/)).
+Toutefois, son futur pourrait sembler bouleversé suite à l’[annonce](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/46ZZ6GZ2W3G4OJYX3BIWTAW75H37TVW6/) de RedHat de ne plus supporter LibreOffice et de ne plus l'inclure dans Fedora (en revanche, la suite sera toujours disponible sous forme de [Flatpak](https://flatpak.org/)).
 
-Néanmoins, The Document Foundation continue de maintenir et d'améliorer les produits à l'heure actuelle comme le montre la très forte activité de leur [blog](https://planet.documentfoundation.org/).
+Néanmoins, The Document Foundation continue de maintenir et d'améliorer les produits à l'heure actuelle comme le montre la très forte activité sur leur [blog](https://planet.documentfoundation.org/) et sur les différentes plateformes dont nous parlerons tout au long de ce travail.
 
 ## Description générale des fonctionnalités offertes
 
