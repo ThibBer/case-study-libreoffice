@@ -148,7 +148,7 @@ Les développeurs ont également mis en place un système de **pre-release** afi
 
 ### Westrums Organizational Culture
 
-[The Document Foundation](https://www.documentfoundation.org/) est une entité auto gouvernée sous le principe de méritocratie, c’est-à-dire que les gens sont récompensés sur base de leurs efforts, qui met le fun en avant.
+[The Document Foundation](https://www.documentfoundation.org/) est une entité auto-gouvernée sous le principe de méritocratie, c’est-à-dire que les gens sont récompensés sur base de leurs efforts, qui met le fun en avant.
 
 LibreOffice a été fondé avec la conviction que la culture qui émerge d’une fondation indépendante stimule le meilleur chez ses contributeurs, ce qui amène aussi à produire un logiciel de meilleure qualité pour les utilisateurs.
 
